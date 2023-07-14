@@ -1,12 +1,14 @@
 #!/bin/bash
+echo "$0 entered"
+. ./config.sh
 
-WORKDIR=/opt/android
-CW_DIR=${WORKDIR}/cake_wallet
-CW_EXRTERNAL_DIR=${CW_DIR}/cw_shared_external/ios/External/android
-CW_HAVEN_EXTERNAL_DIR=${CW_DIR}/cw_haven/ios/External/android
-CW_MONERO_EXTERNAL_DIR=${CW_DIR}/cw_monero/ios/External/android
+EW_DIR=/zsata/vcs/easy-wallet-v6
+EW_EXT_DIR=${EW_DIR}/cw_shared_external/ios/External/android
+EW_HAVEN_EXT_DIR=${EW_DIR}/cw_haven/ios/External/android
+EW_MONERO_EXT_DIR=${EW_DIR}/cw_monero/ios/External/android
 for arch in "aarch" "aarch64" "i686" "x86_64"
 do
+echo "arch $arch started"
 
 PREFIX=${WORKDIR}/prefix_${arch}
 ABI=""
@@ -22,24 +24,25 @@ case $arch in
 		ABI="x86_64";;
 esac
 
-LIB_DIR=${CW_EXRTERNAL_DIR}/${ABI}/lib
-INCLUDE_DIR=${CW_EXRTERNAL_DIR}/${ABI}/include
-LIBANBOUND_PATH=${PREFIX}/lib/libunbound.a
+LIB_DIR=${EW_EXT_DIR}/${ABI}/lib
+INCLUDE_DIR=${EW_EXT_DIR}/${ABI}/include
+LIBUNBOUND_PATH=${PREFIX}/lib/libunbound.a
 
-mkdir -p $LIB_DIR
-mkdir -p $INCLUDE_DIR
+mkdir -pv $LIB_DIR
+mkdir -pv $INCLUDE_DIR
 
-cp -r ${PREFIX}/lib/* $LIB_DIR
-cp -r ${PREFIX}/include/* $INCLUDE_DIR
+cp -rv ${PREFIX}/lib/* $LIB_DIR
+cp -rv ${PREFIX}/include/* $INCLUDE_DIR
 
-if [ -f "$LIBANBOUND_PATH" ]; then
- cp $LIBANBOUND_PATH ${LIB_DIR}/monero
+if [ -f "$LIBUNBOUND_PATH" ]; then
+ cp -v $LIBUNBOUND_PATH ${LIB_DIR}/monero
 fi
-
+echo "arch $arch done"
 done
 
-mkdir -p ${CW_HAVEN_EXTERNAL_DIR}/include
-mkdir -p ${CW_MONERO_EXTERNAL_DIR}/include
+mkdir -pv ${EW_HAVEN_EXT_DIR}/include
+mkdir -pv ${EW_MONERO_EXT_DIR}/include
 
-cp $CW_EXRTERNAL_DIR/x86/include/monero/wallet2_api.h ${CW_MONERO_EXTERNAL_DIR}/include
-cp $CW_EXRTERNAL_DIR/x86/include/haven/wallet2_api.h ${CW_HAVEN_EXTERNAL_DIR}/include
+cp -v $EW_EXT_DIR/x86/include/monero/wallet2_api.h ${EW_MONERO_EXT_DIR}/include
+cp -v $EW_EXT_DIR/x86/include/haven/wallet2_api.h ${EW_HAVEN_EXT_DIR}/include
+echo "$0 leaving"

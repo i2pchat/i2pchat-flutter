@@ -1,8 +1,11 @@
 #!/bin/bash
 
+echo "$0 entered"
+
 MONERO_COM=monero.com
 CAKEWALLET=cakewallet
 HAVEN=haven
+EW=easywallet
 CONFIG_ARGS=""
 
 case $APP_ANDROID_TYPE in
@@ -15,12 +18,20 @@ case $APP_ANDROID_TYPE in
         $HAVEN)
                 CONFIG_ARGS="--haven"
                 ;;
+        $EW)
+                CONFIG_ARGS="--monero --bitcoin --haven"
+                ;;
 esac
 
 cd ../..
-cp -rf pubspec_description.yaml pubspec.yaml
+cp -vrf pubspec_description.yaml pubspec.yaml
+echo "flutter pub get"
 flutter pub get
-flutter pub run tool/generate_pubspec.dart
+echo "dart run tool/generate_pubspec.dart"
+dart run tool/generate_pubspec.dart
+echo "flutter pub get"
 flutter pub get
-flutter packages pub run tool/configure.dart $CONFIG_ARGS
+echo "dart run tool/configure.dart $CONFIG_ARGS"
+dart run tool/configure.dart $CONFIG_ARGS
 cd scripts/android
+echo "$0 leave"
