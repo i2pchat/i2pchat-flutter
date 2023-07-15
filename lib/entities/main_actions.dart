@@ -28,11 +28,11 @@ class MainActions {
   });
 
   static List<MainActions> all = [
-    buyAction,
+    //buyAction,
     receiveAction,
     exchangeAction,
     sendAction,
-    sellAction,
+    //sellAction,
   ];
 
   static MainActions buyAction = MainActions._(

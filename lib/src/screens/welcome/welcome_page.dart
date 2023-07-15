@@ -21,7 +21,7 @@ class WelcomePage extends BasePage {
       return S.of(context).haven_app;
     }
 
-    return S.of(context).cake_wallet;
+    return S.of(context).easy_wallet;
   }
 
   String appDescription(BuildContext context) {
@@ -65,21 +65,30 @@ class WelcomePage extends BasePage {
 
     return WillPopScope(
         onWillPop: () async => false,
-        child: Container(
-            alignment: Alignment.center,
-            padding: EdgeInsets.only(top: 64, bottom: 24, left: 24, right: 24),
-            child: ConstrainedBox(
-              constraints: BoxConstraints(
-                  maxWidth: ResponsiveLayoutUtil.kDesktopMaxWidthConstraint),
+        child: ConstrainedBox(
+            constraints: BoxConstraints(
+              maxWidth: ResponsiveLayoutUtil.kDesktopMaxWidthConstraint,
+              maxHeight: MediaQuery.of(context).size.height
+            ),
+            child: Container(
+              alignment: Alignment.center,
+              padding: EdgeInsets.only(top: 64, bottom: 24, left: 24, right: 24),
+              child: FittedBox(
+              alignment: Alignment.center, fit: BoxFit.contain,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
                   Column(
                     children: <Widget>[
-                      AspectRatio(
-                        aspectRatio: aspectRatioImage,
-                        child: FittedBox(
-                            child: welcomeImage, fit: BoxFit.contain),
+                      ConstrainedBox(
+                        constraints: BoxConstraints(
+                          maxWidth: ResponsiveLayoutUtil.kDesktopMaxWidthConstraint,
+                          maxHeight: MediaQuery.of(context).size.height
+                        ),
+                        child: AspectRatio(
+                            aspectRatio: aspectRatioImage,
+                            child: FittedBox(child: welcomeImage, fit: BoxFit.contain),
+                        ),
                       ),
                       Padding(
                         padding: EdgeInsets.only(top: 24),
@@ -174,6 +183,9 @@ class WelcomePage extends BasePage {
                   )
                 ],
               ),
-            )));
+              )
+            )
+        )
+    );
   }
 }
