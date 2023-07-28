@@ -28,4 +28,5 @@ class AssetsRes {
   static const String ZADDR_ICON = 'assets/images/zaddr_icon.png';
   static const String LITECOIN_ELECTRUM_SERVER_LIST = 'assets/litecoin_electrum_server_list.yml';
   static const String NODE_LIST = 'assets/node_list.yml';
+  static const String LICENSE = 'assets/text/LICENSE.txt';
 }

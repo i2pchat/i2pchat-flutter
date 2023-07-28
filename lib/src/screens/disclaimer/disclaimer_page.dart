@@ -50,9 +50,7 @@ class DisclaimerBodyState extends State<DisclaimerPageBody> {
 
   Future getFileLines() async {
     _fileText = await rootBundle.loadString(
-      isMoneroOnly
-      ? 'assets/text/Monerocom_Terms_of_Use.txt'
-      : 'assets/text/Terms_of_Use.txt' );
+      'assets/text/LICENSE.txt' );
     setState(() {});
   }
 
