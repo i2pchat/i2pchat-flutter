@@ -25,21 +25,21 @@ abstract class SupportViewModelBase with Store {
       ),
       LinkListItem(
           title: 'Email',
-          linkTitle: 'support@cakewallet.com',
-          link: 'mailto:support@cakewallet.com'),
+          linkTitle: 'support@tranoo.com',
+          link: 'mailto:support@tranoo.com'),
       if (!isMoneroOnly)
         LinkListItem(
             title: 'Website',
-            linkTitle: 'cakewallet.com',
-            link: 'https://cakewallet.com'),
+            linkTitle: 'easy-wallet.tranoo.com',
+            link: 'https://easy-wallet.tranoo.com'),
       if (!isMoneroOnly)      
         LinkListItem(
             title: 'GitHub',
             icon: 'assets/images/github.png',
             hasIconColor: true,
             linkTitle: S.current.apk_update,
-            link: 'https://github.com/cake-tech/cake_wallet/releases'),
-      LinkListItem(
+            link: 'https://github.com/easy-wallet/easy-wallet/releases'),
+      /*LinkListItem(
           title: 'Telegram',
           icon: 'assets/images/Telegram.png',
           linkTitle: '@cakewallet_bot',
@@ -49,6 +49,8 @@ abstract class SupportViewModelBase with Store {
           icon: 'assets/images/Twitter.png',
           linkTitle: '@cakewallet',
           link: 'https://twitter.com/cakewallet'),
+
+       */
       LinkListItem(
           title: 'ChangeNow',
           icon: 'assets/images/change_now.png',
@@ -85,7 +87,7 @@ abstract class SupportViewModelBase with Store {
       //    link: 'mailto:support@y.at')
   ];
 
-  static const url = 'https://guides.cakewallet.com';
+  static const url = 'https://easy-wallet.tranoo.com/guides';
 
   List<SettingsListItem> items;
 }

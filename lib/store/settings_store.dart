@@ -73,7 +73,6 @@ abstract class SettingsStoreBase with Store {
         isAppSecure = initialAppSecure,
         disableBuy = initialDisableBuy,
         disableSell = initialDisableSell,
-        shouldShowMarketPlaceInDashboard = initialShouldShowMarketPlaceInDashboard,
         exchangeStatus = initialExchangeStatus,
         currentTheme = initialTheme,
         pinCodeLength = initialPinLength,
@@ -177,11 +176,6 @@ abstract class SettingsStoreBase with Store {
     reaction((_) => totpSecretKey,
         (String totpKey) => sharedPreferences.setString(PreferencesKey.totpSecretKey, totpKey));
 
-    reaction(
-        (_) => shouldShowMarketPlaceInDashboard,
-        (bool value) =>
-            sharedPreferences.setBool(PreferencesKey.shouldShowMarketPlaceInDashboard, value));
-
     reaction((_) => pinCodeLength,
         (int pinLength) => sharedPreferences.setInt(PreferencesKey.currentPinLength, pinLength));
 
@@ -221,9 +215,6 @@ abstract class SettingsStoreBase with Store {
 
   @observable
   bool shouldShowYatPopup;
-
-  @observable
-  bool shouldShowMarketPlaceInDashboard;
 
   @observable
   ObservableList<ActionListDisplayMode> actionlistDisplayMode;
@@ -359,8 +350,6 @@ abstract class SettingsStoreBase with Store {
     final totpSecretKey = sharedPreferences.getString(PreferencesKey.totpSecretKey) ?? '';
     final useTOTP2FA = sharedPreferences.getBool(PreferencesKey.useTOTP2FA) ?? false;
     final tokenTrialNumber = sharedPreferences.getInt(PreferencesKey.failedTotpTokenTrials) ?? 0;
-    final shouldShowMarketPlaceInDashboard =
-        sharedPreferences.getBool(PreferencesKey.shouldShowMarketPlaceInDashboard) ?? true;
     final exchangeStatus = ExchangeApiMode.deserialize(
         raw: sharedPreferences.getInt(PreferencesKey.exchangeStatusKey) ??
             ExchangeApiMode.enabled.raw);
@@ -420,7 +409,7 @@ abstract class SettingsStoreBase with Store {
 
     return SettingsStore(
         sharedPreferences: sharedPreferences,
-        initialShouldShowMarketPlaceInDashboard: shouldShowMarketPlaceInDashboard,
+        initialShouldShowMarketPlaceInDashboard: false,
         nodes: nodes,
         appVersion: packageInfo.version,
         deviceName: deviceName,
@@ -490,9 +479,6 @@ abstract class SettingsStoreBase with Store {
     allowBiometricalAuthentication =
         sharedPreferences.getBool(PreferencesKey.allowBiometricalAuthenticationKey) ??
             allowBiometricalAuthentication;
-    shouldShowMarketPlaceInDashboard =
-        sharedPreferences.getBool(PreferencesKey.shouldShowMarketPlaceInDashboard) ??
-            shouldShowMarketPlaceInDashboard;
     exchangeStatus = ExchangeApiMode.deserialize(
         raw: sharedPreferences.getInt(PreferencesKey.exchangeStatusKey) ??
             ExchangeApiMode.enabled.raw);

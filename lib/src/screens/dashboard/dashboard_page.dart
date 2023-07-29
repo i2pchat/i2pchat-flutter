@@ -3,10 +3,8 @@ import 'package:cake_wallet/entities/preferences_key.dart';
 import 'package:cake_wallet/di.dart';
 import 'package:cake_wallet/entities/main_actions.dart';
 import 'package:cake_wallet/src/screens/dashboard/desktop_widgets/desktop_sidebar_wrapper.dart';
-import 'package:cake_wallet/src/screens/dashboard/widgets/market_place_page.dart';
 import 'package:cake_wallet/utils/device_info.dart';
 import 'package:cake_wallet/utils/version_comparator.dart';
-import 'package:cake_wallet/view_model/dashboard/market_place_view_model.dart';
 import 'package:cake_wallet/generated/i18n.dart';
 import 'package:cake_wallet/routes.dart';
 import 'package:cake_wallet/src/screens/yat_emoji_id.dart';
@@ -133,7 +131,7 @@ class _DashboardPageView extends BasePage {
 
   final DashboardViewModel dashboardViewModel;
   final WalletAddressListViewModel addressListViewModel;
-  int get initialPage => dashboardViewModel.shouldShowMarketPlaceInDashboard ? 1 : 0;
+  int get initialPage => false ? 1 : 0;
   ObservableList<Widget> pages = ObservableList<Widget>();
   bool _isEffectsInstalled = false;
   StreamSubscription<bool>? _onInactiveSub;
@@ -142,19 +140,15 @@ class _DashboardPageView extends BasePage {
   Widget body(BuildContext context) {
     final controller = PageController(initialPage: initialPage);
 
-    reaction((_) => dashboardViewModel.shouldShowMarketPlaceInDashboard, (bool value) {
-      if (!dashboardViewModel.shouldShowMarketPlaceInDashboard) {
+    reaction((_) => false, (bool value) {
+      if (!false) {
         controller.jumpToPage(0);
       }
       pages.clear();
       _isEffectsInstalled = false;
       _setEffects(context);
 
-      if (value) {
-        controller.jumpToPage(1);
-      } else {
-        controller.jumpToPage(0);
-      }
+      controller.jumpToPage(0);
     });
     _setEffects(context);
 
@@ -262,16 +256,6 @@ class _DashboardPageView extends BasePage {
   void _setEffects(BuildContext context) async {
     if (_isEffectsInstalled) {
       return;
-    }
-    if (dashboardViewModel.shouldShowMarketPlaceInDashboard) {
-      pages.add(Semantics(
-          label: S.of(context).market_place,
-          child: MarketPlacePage(
-            dashboardViewModel: dashboardViewModel,
-            marketPlaceViewModel: getIt.get<MarketPlaceViewModel>(),
-          ),
-        ),
-      );
     }
     pages.add(Semantics(label: S.of(context).balance_page, child: balancePage));
     pages.add(Semantics(

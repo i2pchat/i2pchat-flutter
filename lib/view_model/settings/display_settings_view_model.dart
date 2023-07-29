@@ -29,9 +29,6 @@ abstract class DisplaySettingsViewModelBase with Store {
   bool get shouldDisplayBalance => balanceDisplayMode == BalanceDisplayMode.displayableBalance;
 
   @computed
-  bool get shouldShowMarketPlaceInDashboard => _settingsStore.shouldShowMarketPlaceInDashboard;
-
-  @computed
   ThemeBase get theme => _settingsStore.currentTheme;
 
   @computed
@@ -61,9 +58,4 @@ abstract class DisplaySettingsViewModelBase with Store {
 
   @action
   void setFiatCurrency(FiatCurrency value) => _settingsStore.fiatCurrency = value;
-
-  @action
-  void setShouldShowMarketPlaceInDashbaord(bool value) {
-    _settingsStore.shouldShowMarketPlaceInDashboard = value;
-  }
 }

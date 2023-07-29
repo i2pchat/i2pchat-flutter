@@ -212,11 +212,6 @@ abstract class DashboardViewModelBase with Store {
       appStore.settingsStore.balanceDisplayMode;
     
   @computed
-  bool get shouldShowMarketPlaceInDashboard {
-    return appStore.settingsStore.shouldShowMarketPlaceInDashboard;
-  }
-
-  @computed
   List<TradeListItem> get trades => tradesStore.trades
       .where((trade) => trade.trade.walletId == wallet.id)
       .toList();

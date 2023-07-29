@@ -5,58 +5,12 @@ import 'package:intl/intl.dart';
 class LanguageService {
   static const Map<String, String> supportedLocales = {
     'en': 'English',
-    'de': 'Deutsch (German)',
-    'es': 'Español (Spanish)',
-    'fr': 'Français (French)',
-    'hi': 'हिंदी (Hindi)',
-    'ja': '日本 (Japanese)',
-    'ko': '한국어 (Korean)',
-    'nl': 'Nederlands (Dutch)',
-    'pl': 'Polski (Polish)',
-    'pt': 'Português (Portuguese)',
     'ru': 'Русский (Russian)',
-    'uk': 'Українська (Ukrainian)',
-    'zh': '中文 (Chinese)',
-    'hr': 'Hrvatski (Croatian)',
-    'it': 'Italiano (Italian)',
-    'th': 'ภาษาไทย (Thai)',
-    'ar': 'العربية (Arabic)',
-    'tr': 'Türkçe (Turkish)',
-    'my': 'မြန်မာ (Burmese)',
-    'bg': 'Български (Bulgarian)',
-    'cs': 'čeština (Czech)',
-    'ur': 'اردو (Urdu)',
-    'id': 'Bahasa Indonesia (Indonesian)',
-    'yo': 'Yorùbá (Yoruba)',
-    'ha': 'Hausa Najeriya (Nigeria)'
   };
 
   static const Map<String, String> localeCountryCode = {
     'en': 'usa',
-    'de': 'deu',
-    'es': 'esp',
-    'fr': 'fra',
-    'hi': 'ind',
-    'ja': 'jpn',
-    'ko': 'kor',
-    'nl': 'nld',
-    'pl': 'pol',
-    'pt': 'prt',
     'ru': 'rus',
-    'uk': 'ukr',
-    'zh': 'chn',
-    'hr': 'hrv',
-    'it': 'ita',
-    'th': 'tha',
-    'ar': 'sau',
-    'tr': 'tur',
-    'my': 'mmr',
-    'bg': 'bgr',
-    'cs': 'czk',
-    'ur': 'pak',
-    'id': 'idn',
-    'yo': 'nga',
-    'ha': 'hau'
   };
 
   static final list = <String, String>{};
