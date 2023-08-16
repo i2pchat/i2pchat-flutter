@@ -65,7 +65,7 @@ Verify that the Android toolchain, Flutter, and Android Studio have been correct
 The output of this command will appear like this, indicating successful installations. If there are problems with your installation, they **must** be corrected before proceeding.
 ```
 Doctor summary (to see all details, run flutter doctor -v):
-[✓] Flutter (Channel stable, 3.10.4, on Ubuntu 20.04.6 LTS 5.4.0-153-generic)
+[✓] Flutter (Channel stable, 3.7.0, on Ubuntu 20.04.6 LTS 5.4.0-156-generic)
 [✓] Android toolchain - develop for Android devices (Android SDK version 28)
 [✓] Android Studio (version 4.0)
 ```
