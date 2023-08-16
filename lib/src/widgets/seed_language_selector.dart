@@ -1,8 +1,8 @@
-import 'package:cake_wallet/utils/show_pop_up.dart';
+import 'package:foss_wallet/utils/show_pop_up.dart';
 import 'package:flutter/material.dart';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/src/screens/new_wallet/widgets/select_button.dart';
-import 'package:cake_wallet/src/screens/seed_language/widgets/seed_language_picker.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/src/screens/new_wallet/widgets/select_button.dart';
+import 'package:foss_wallet/src/screens/seed_language/widgets/seed_language_picker.dart';
 
 class SeedLanguageSelector extends StatefulWidget {
   SeedLanguageSelector({Key? key, required this.initialSelected})

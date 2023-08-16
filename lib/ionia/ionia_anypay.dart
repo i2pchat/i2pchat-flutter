@@ -3,16 +3,16 @@ import 'package:cw_core/monero_transaction_priority.dart';
 import 'package:cw_core/output_info.dart';
 import 'package:cw_core/pending_transaction.dart';
 import 'package:cw_core/wallet_base.dart';
-import 'package:cake_wallet/anypay/any_pay_payment.dart';
-import 'package:cake_wallet/anypay/any_pay_payment_instruction.dart';
-import 'package:cake_wallet/ionia/ionia_service.dart';
-import 'package:cake_wallet/anypay/anypay_api.dart';
-import 'package:cake_wallet/anypay/any_pay_chain.dart';
-import 'package:cake_wallet/anypay/any_pay_trasnaction.dart';
-import 'package:cake_wallet/bitcoin/bitcoin.dart';
-import 'package:cake_wallet/monero/monero.dart';
-import 'package:cake_wallet/anypay/any_pay_payment_committed_info.dart';
-import 'package:cake_wallet/ionia/ionia_any_pay_payment_info.dart';
+import 'package:foss_wallet/anypay/any_pay_payment.dart';
+import 'package:foss_wallet/anypay/any_pay_payment_instruction.dart';
+import 'package:foss_wallet/ionia/ionia_service.dart';
+import 'package:foss_wallet/anypay/anypay_api.dart';
+import 'package:foss_wallet/anypay/any_pay_chain.dart';
+import 'package:foss_wallet/anypay/any_pay_trasnaction.dart';
+import 'package:foss_wallet/bitcoin/bitcoin.dart';
+import 'package:foss_wallet/monero/monero.dart';
+import 'package:foss_wallet/anypay/any_pay_payment_committed_info.dart';
+import 'package:foss_wallet/ionia/ionia_any_pay_payment_info.dart';
 
 class IoniaAnyPay {
 	IoniaAnyPay(this.ioniaService, this.anyPayApi, this.wallet);

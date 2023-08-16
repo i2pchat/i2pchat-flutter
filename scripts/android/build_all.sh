@@ -12,7 +12,7 @@ case $APP_ANDROID_TYPE in
 	"cakewallet")
 	              $DIR/build_monero_all.sh
 				        $DIR/build_haven.sh ;;
-	"easywallet")
+	"fosswallet")
 	              $DIR/build_monero_all.sh
 				        $DIR/build_haven.sh ;;
 	"haven")      $DIR/build_haven_all.sh ;;

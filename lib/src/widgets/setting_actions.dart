@@ -1,5 +1,5 @@
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/routes.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/routes.dart';
 import 'package:flutter/material.dart';
 
 class SettingActions {

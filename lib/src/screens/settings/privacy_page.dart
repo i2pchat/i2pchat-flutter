@@ -1,12 +1,12 @@
-import 'package:cake_wallet/entities/exchange_api_mode.dart';
-import 'package:cake_wallet/entities/fiat_api_mode.dart';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/src/screens/base_page.dart';
-import 'package:cake_wallet/src/screens/settings/widgets/settings_choices_cell.dart';
-import 'package:cake_wallet/src/screens/settings/widgets/settings_switcher_cell.dart';
-import 'package:cake_wallet/utils/device_info.dart';
-import 'package:cake_wallet/view_model/settings/choices_list_item.dart';
-import 'package:cake_wallet/view_model/settings/privacy_settings_view_model.dart';
+import 'package:foss_wallet/entities/exchange_api_mode.dart';
+import 'package:foss_wallet/entities/fiat_api_mode.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/src/screens/base_page.dart';
+import 'package:foss_wallet/src/screens/settings/widgets/settings_choices_cell.dart';
+import 'package:foss_wallet/src/screens/settings/widgets/settings_switcher_cell.dart';
+import 'package:foss_wallet/utils/device_info.dart';
+import 'package:foss_wallet/view_model/settings/choices_list_item.dart';
+import 'package:foss_wallet/view_model/settings/privacy_settings_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 

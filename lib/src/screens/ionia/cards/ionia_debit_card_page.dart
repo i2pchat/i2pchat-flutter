@@ -1,16 +1,16 @@
-import 'package:cake_wallet/ionia/ionia_create_state.dart';
-import 'package:cake_wallet/ionia/ionia_virtual_card.dart';
-import 'package:cake_wallet/routes.dart';
-import 'package:cake_wallet/src/screens/base_page.dart';
-import 'package:cake_wallet/src/screens/ionia/widgets/text_icon_button.dart';
-import 'package:cake_wallet/src/widgets/alert_background.dart';
-import 'package:cake_wallet/src/widgets/primary_button.dart';
-import 'package:cake_wallet/src/widgets/scollable_with_bottom_section.dart';
-import 'package:cake_wallet/typography.dart';
-import 'package:cake_wallet/utils/show_pop_up.dart';
-import 'package:cake_wallet/view_model/ionia/ionia_gift_cards_list_view_model.dart';
+import 'package:foss_wallet/ionia/ionia_create_state.dart';
+import 'package:foss_wallet/ionia/ionia_virtual_card.dart';
+import 'package:foss_wallet/routes.dart';
+import 'package:foss_wallet/src/screens/base_page.dart';
+import 'package:foss_wallet/src/screens/ionia/widgets/text_icon_button.dart';
+import 'package:foss_wallet/src/widgets/alert_background.dart';
+import 'package:foss_wallet/src/widgets/primary_button.dart';
+import 'package:foss_wallet/src/widgets/scollable_with_bottom_section.dart';
+import 'package:foss_wallet/typography.dart';
+import 'package:foss_wallet/utils/show_pop_up.dart';
+import 'package:foss_wallet/view_model/ionia/ionia_gift_cards_list_view_model.dart';
 import 'package:flutter/material.dart';
-import 'package:cake_wallet/generated/i18n.dart';
+import 'package:foss_wallet/generated/i18n.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
 class IoniaDebitCardPage extends BasePage {

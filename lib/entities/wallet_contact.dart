@@ -1,4 +1,4 @@
-import 'package:cake_wallet/entities/contact_base.dart';
+import 'package:foss_wallet/entities/contact_base.dart';
 import 'package:cw_core/crypto_currency.dart';
 
 class WalletContact implements ContactBase {

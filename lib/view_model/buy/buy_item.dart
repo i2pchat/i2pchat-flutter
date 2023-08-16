@@ -1,7 +1,7 @@
-import 'package:cake_wallet/buy/buy_amount.dart';
-import 'package:cake_wallet/buy/buy_provider.dart';
-import 'package:cake_wallet/entities/fiat_currency.dart';
-import 'package:cake_wallet/view_model/buy/buy_amount_view_model.dart';
+import 'package:foss_wallet/buy/buy_amount.dart';
+import 'package:foss_wallet/buy/buy_provider.dart';
+import 'package:foss_wallet/entities/fiat_currency.dart';
+import 'package:foss_wallet/view_model/buy/buy_amount_view_model.dart';
 
 class BuyItem {
   BuyItem({required this.provider, required this.buyAmountViewModel});

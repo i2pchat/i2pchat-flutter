@@ -1,14 +1,14 @@
-import 'package:cake_wallet/core/totp_request_details.dart';
-import 'package:cake_wallet/routes.dart';
-import 'package:cake_wallet/src/screens/auth/auth_page.dart';
+import 'package:foss_wallet/core/totp_request_details.dart';
+import 'package:foss_wallet/routes.dart';
+import 'package:foss_wallet/src/screens/auth/auth_page.dart';
 import 'package:flutter/material.dart';
 import 'package:mobx/mobx.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:cake_wallet/entities/preferences_key.dart';
-import 'package:cake_wallet/entities/secret_store_key.dart';
-import 'package:cake_wallet/entities/encrypt.dart';
-import 'package:cake_wallet/store/settings_store.dart';
+import 'package:foss_wallet/entities/preferences_key.dart';
+import 'package:foss_wallet/entities/secret_store_key.dart';
+import 'package:foss_wallet/entities/encrypt.dart';
+import 'package:foss_wallet/store/settings_store.dart';
 
 import '../src/screens/setup_2fa/setup_2fa_enter_code_page.dart';
 

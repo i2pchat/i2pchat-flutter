@@ -1,4 +1,4 @@
-import 'package:cake_wallet/utils/device_info.dart';
+import 'package:foss_wallet/utils/device_info.dart';
 import 'package:flutter/services.dart';
 
 const channel = MethodChannel('com.cake_wallet/native_utils');

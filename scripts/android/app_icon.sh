@@ -30,7 +30,7 @@ case $APP_ANDROID_TYPE in
     ANDROID_ICON=$CAKEWALLET_PATH
     ANDROID_ICON_SET=$CAKEWALLET_ICON_SET_PATH
     ;;
-  "easywallet")
+  "fosswallet")
     APP_LOGO=$ASSETS_DIR/images/ew_logo.png
     ANDROID_ICON=$EW_PATH
     ANDROID_ICON_SET=$EW_ICON_SET_PATH

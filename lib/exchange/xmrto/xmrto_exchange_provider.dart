@@ -2,17 +2,17 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart';
 import 'package:cw_core/crypto_currency.dart';
-import 'package:cake_wallet/exchange/exchange_pair.dart';
-import 'package:cake_wallet/exchange/exchange_provider.dart';
-import 'package:cake_wallet/exchange/limits.dart';
-import 'package:cake_wallet/exchange/trade.dart';
-import 'package:cake_wallet/exchange/trade_request.dart';
-import 'package:cake_wallet/exchange/trade_state.dart';
-import 'package:cake_wallet/exchange/xmrto/xmrto_trade_request.dart';
-import 'package:cake_wallet/exchange/trade_not_created_exeption.dart';
-import 'package:cake_wallet/exchange/exchange_provider_description.dart';
-import 'package:cake_wallet/exchange/trade_not_found_exeption.dart';
-import 'package:cake_wallet/generated/i18n.dart';
+import 'package:foss_wallet/exchange/exchange_pair.dart';
+import 'package:foss_wallet/exchange/exchange_provider.dart';
+import 'package:foss_wallet/exchange/limits.dart';
+import 'package:foss_wallet/exchange/trade.dart';
+import 'package:foss_wallet/exchange/trade_request.dart';
+import 'package:foss_wallet/exchange/trade_state.dart';
+import 'package:foss_wallet/exchange/xmrto/xmrto_trade_request.dart';
+import 'package:foss_wallet/exchange/trade_not_created_exeption.dart';
+import 'package:foss_wallet/exchange/exchange_provider_description.dart';
+import 'package:foss_wallet/exchange/trade_not_found_exeption.dart';
+import 'package:foss_wallet/generated/i18n.dart';
 
 class XMRTOExchangeProvider extends ExchangeProvider {
   XMRTOExchangeProvider()

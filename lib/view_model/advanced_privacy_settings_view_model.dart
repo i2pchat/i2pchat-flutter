@@ -1,6 +1,6 @@
-import 'package:cake_wallet/entities/exchange_api_mode.dart';
-import 'package:cake_wallet/entities/fiat_api_mode.dart';
-import 'package:cake_wallet/store/settings_store.dart';
+import 'package:foss_wallet/entities/exchange_api_mode.dart';
+import 'package:foss_wallet/entities/fiat_api_mode.dart';
+import 'package:foss_wallet/store/settings_store.dart';
 import 'package:cw_core/wallet_type.dart';
 import 'package:mobx/mobx.dart';
 

@@ -1,4 +1,4 @@
-import 'package:cake_wallet/palette.dart';
+import 'package:foss_wallet/palette.dart';
 import 'package:flutter/material.dart';
 
 class YatCloseButton extends StatelessWidget {

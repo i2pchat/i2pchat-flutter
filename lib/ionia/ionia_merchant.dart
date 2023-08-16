@@ -1,5 +1,5 @@
-import 'package:cake_wallet/ionia/ionia_gift_card_instruction.dart';
-import 'package:cake_wallet/generated/i18n.dart';
+import 'package:foss_wallet/ionia/ionia_gift_card_instruction.dart';
+import 'package:foss_wallet/generated/i18n.dart';
 
 class IoniaMerchant  {
 	IoniaMerchant({

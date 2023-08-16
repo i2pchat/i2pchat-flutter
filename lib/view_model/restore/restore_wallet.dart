@@ -1,4 +1,4 @@
-import 'package:cake_wallet/view_model/restore/restore_mode.dart';
+import 'package:foss_wallet/view_model/restore/restore_mode.dart';
 import 'package:cw_core/wallet_type.dart';
 
 class RestoredWallet {

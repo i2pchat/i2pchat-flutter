@@ -1,21 +1,21 @@
-import 'package:cake_wallet/di.dart';
-import 'package:cake_wallet/entities/calculate_fiat_amount_raw.dart';
-import 'package:cake_wallet/entities/parse_address_from_domain.dart';
-import 'package:cake_wallet/entities/parsed_address.dart';
-import 'package:cake_wallet/haven/haven.dart';
-import 'package:cake_wallet/src/screens/send/widgets/extract_address_from_parsed.dart';
+import 'package:foss_wallet/di.dart';
+import 'package:foss_wallet/entities/calculate_fiat_amount_raw.dart';
+import 'package:foss_wallet/entities/parse_address_from_domain.dart';
+import 'package:foss_wallet/entities/parsed_address.dart';
+import 'package:foss_wallet/haven/haven.dart';
+import 'package:foss_wallet/src/screens/send/widgets/extract_address_from_parsed.dart';
 import 'package:cw_core/crypto_currency.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:mobx/mobx.dart';
 import 'package:cw_core/wallet_base.dart';
-import 'package:cake_wallet/monero/monero.dart';
-import 'package:cake_wallet/entities/calculate_fiat_amount.dart';
+import 'package:foss_wallet/monero/monero.dart';
+import 'package:foss_wallet/entities/calculate_fiat_amount.dart';
 import 'package:cw_core/wallet_type.dart';
-import 'package:cake_wallet/store/dashboard/fiat_conversion_store.dart';
-import 'package:cake_wallet/store/settings_store.dart';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/bitcoin/bitcoin.dart';
+import 'package:foss_wallet/store/dashboard/fiat_conversion_store.dart';
+import 'package:foss_wallet/store/settings_store.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/bitcoin/bitcoin.dart';
 
 part 'output.g.dart';
 

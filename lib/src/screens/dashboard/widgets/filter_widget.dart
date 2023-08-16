@@ -1,10 +1,10 @@
-import 'package:cake_wallet/src/screens/dashboard/widgets/filter_tile.dart';
-import 'package:cake_wallet/src/widgets/section_divider.dart';
-import 'package:cake_wallet/src/widgets/standard_checkbox.dart';
-import 'package:cake_wallet/view_model/dashboard/dashboard_view_model.dart';
+import 'package:foss_wallet/src/screens/dashboard/widgets/filter_tile.dart';
+import 'package:foss_wallet/src/widgets/section_divider.dart';
+import 'package:foss_wallet/src/widgets/standard_checkbox.dart';
+import 'package:foss_wallet/view_model/dashboard/dashboard_view_model.dart';
 import 'package:flutter/material.dart';
-import 'package:cake_wallet/src/widgets/picker_wrapper_widget.dart';
-import 'package:cake_wallet/generated/i18n.dart';
+import 'package:foss_wallet/src/widgets/picker_wrapper_widget.dart';
+import 'package:foss_wallet/generated/i18n.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 //import 'package:date_range_picker/date_range_picker.dart' as date_rage_picker;
 

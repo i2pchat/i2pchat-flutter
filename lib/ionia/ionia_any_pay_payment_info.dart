@@ -1,5 +1,5 @@
-import 'package:cake_wallet/anypay/any_pay_payment.dart';
-import 'package:cake_wallet/ionia/ionia_order.dart';
+import 'package:foss_wallet/anypay/any_pay_payment.dart';
+import 'package:foss_wallet/ionia/ionia_order.dart';
 
 class IoniaAnyPayPaymentInfo {
 	const IoniaAnyPayPaymentInfo(this.ioniaOrder, this.anyPayPayment);

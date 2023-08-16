@@ -1,6 +1,6 @@
-import 'package:cake_wallet/bitcoin/bitcoin.dart';
-import 'package:cake_wallet/haven/haven.dart';
-import 'package:cake_wallet/monero/monero.dart';
+import 'package:foss_wallet/bitcoin/bitcoin.dart';
+import 'package:foss_wallet/haven/haven.dart';
+import 'package:foss_wallet/monero/monero.dart';
 import 'package:cw_core/transaction_priority.dart';
 import 'package:cw_core/wallet_type.dart';
 

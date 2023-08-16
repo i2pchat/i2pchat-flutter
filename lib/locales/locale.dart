@@ -1,6 +1,6 @@
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/locales/hausa_intl.dart';
-import 'package:cake_wallet/locales/yoruba_intl.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/locales/hausa_intl.dart';
+import 'package:foss_wallet/locales/yoruba_intl.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 

@@ -1,10 +1,10 @@
 import 'dart:async';
-import 'package:cake_wallet/core/fiat_conversion_service.dart';
-import 'package:cake_wallet/entities/fiat_api_mode.dart';
-import 'package:cake_wallet/entities/update_haven_rate.dart';
-import 'package:cake_wallet/store/app_store.dart';
-import 'package:cake_wallet/store/dashboard/fiat_conversion_store.dart';
-import 'package:cake_wallet/store/settings_store.dart';
+import 'package:foss_wallet/core/fiat_conversion_service.dart';
+import 'package:foss_wallet/entities/fiat_api_mode.dart';
+import 'package:foss_wallet/entities/update_haven_rate.dart';
+import 'package:foss_wallet/store/app_store.dart';
+import 'package:foss_wallet/store/dashboard/fiat_conversion_store.dart';
+import 'package:foss_wallet/store/settings_store.dart';
 import 'package:cw_core/wallet_type.dart';
 
 Timer? _timer;

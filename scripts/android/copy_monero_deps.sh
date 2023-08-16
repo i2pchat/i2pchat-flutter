@@ -2,7 +2,7 @@
 echo "$0 entered"
 . ./config.sh
 
-EW_DIR=/zsata/vcs/easy-wallet-v6
+EW_DIR=/zsata/vcs/foss-wallet-v6
 EW_EXT_DIR=${EW_DIR}/cw_shared_external/ios/External/android
 EW_HAVEN_EXT_DIR=${EW_DIR}/cw_haven/ios/External/android
 EW_MONERO_EXT_DIR=${EW_DIR}/cw_monero/ios/External/android

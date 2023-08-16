@@ -1,7 +1,7 @@
-import 'package:cake_wallet/di.dart';
-import 'package:cake_wallet/entities/main_actions.dart';
-import 'package:cake_wallet/src/screens/dashboard/desktop_widgets/desktop_action_button.dart';
-import 'package:cake_wallet/view_model/dashboard/dashboard_view_model.dart';
+import 'package:foss_wallet/di.dart';
+import 'package:foss_wallet/entities/main_actions.dart';
+import 'package:foss_wallet/src/screens/dashboard/desktop_widgets/desktop_action_button.dart';
+import 'package:foss_wallet/view_model/dashboard/dashboard_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 

@@ -1,10 +1,10 @@
-import 'package:cake_wallet/view_model/wallet_address_list/wallet_address_list_item.dart';
+import 'package:foss_wallet/view_model/wallet_address_list/wallet_address_list_item.dart';
 import 'package:mobx/mobx.dart';
 import 'package:flutter/foundation.dart';
 import 'package:cw_core/wallet_base.dart';
-import 'package:cake_wallet/bitcoin/bitcoin.dart';
-import 'package:cake_wallet/monero/monero.dart';
-import 'package:cake_wallet/haven/haven.dart';
+import 'package:foss_wallet/bitcoin/bitcoin.dart';
+import 'package:foss_wallet/monero/monero.dart';
+import 'package:foss_wallet/haven/haven.dart';
 import 'package:cw_core/wallet_type.dart';
 
 part 'wallet_address_edit_or_create_view_model.g.dart';

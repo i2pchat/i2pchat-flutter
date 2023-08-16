@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:cake_wallet/utils/list_item.dart';
+import 'package:foss_wallet/utils/list_item.dart';
 
 class WalletAddressListItem extends ListItem {
   const WalletAddressListItem({

@@ -1,19 +1,19 @@
 import 'package:another_flushbar/flushbar.dart';
-import 'package:cake_wallet/core/auth_service.dart';
-import 'package:cake_wallet/core/wallet_name_validator.dart';
-import 'package:cake_wallet/palette.dart';
-import 'package:cake_wallet/src/widgets/alert_with_one_action.dart';
-import 'package:cake_wallet/src/widgets/alert_with_two_actions.dart';
-import 'package:cake_wallet/utils/show_bar.dart';
-import 'package:cake_wallet/utils/show_pop_up.dart';
-import 'package:cake_wallet/view_model/wallet_list/wallet_edit_view_model.dart';
-import 'package:cake_wallet/view_model/wallet_list/wallet_list_item.dart';
-import 'package:cake_wallet/view_model/wallet_new_vm.dart';
+import 'package:foss_wallet/core/auth_service.dart';
+import 'package:foss_wallet/core/wallet_name_validator.dart';
+import 'package:foss_wallet/palette.dart';
+import 'package:foss_wallet/src/widgets/alert_with_one_action.dart';
+import 'package:foss_wallet/src/widgets/alert_with_two_actions.dart';
+import 'package:foss_wallet/utils/show_bar.dart';
+import 'package:foss_wallet/utils/show_pop_up.dart';
+import 'package:foss_wallet/view_model/wallet_list/wallet_edit_view_model.dart';
+import 'package:foss_wallet/view_model/wallet_list/wallet_list_item.dart';
+import 'package:foss_wallet/view_model/wallet_new_vm.dart';
 import 'package:flutter/material.dart';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/src/widgets/primary_button.dart';
-import 'package:cake_wallet/src/widgets/base_text_form_field.dart';
-import 'package:cake_wallet/src/screens/base_page.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/src/widgets/primary_button.dart';
+import 'package:foss_wallet/src/widgets/base_text_form_field.dart';
+import 'package:foss_wallet/src/screens/base_page.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
 class WalletEditPage extends BasePage {

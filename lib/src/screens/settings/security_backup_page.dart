@@ -1,15 +1,15 @@
-import 'package:cake_wallet/core/auth_service.dart';
-import 'package:cake_wallet/entities/pin_code_required_duration.dart';
-import 'package:cake_wallet/routes.dart';
-import 'package:cake_wallet/src/screens/base_page.dart';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/src/screens/pin_code/pin_code_widget.dart';
-import 'package:cake_wallet/src/screens/settings/widgets/settings_cell_with_arrow.dart';
-import 'package:cake_wallet/src/screens/settings/widgets/settings_picker_cell.dart';
-import 'package:cake_wallet/src/screens/settings/widgets/settings_switcher_cell.dart';
-import 'package:cake_wallet/src/widgets/standard_list.dart';
-import 'package:cake_wallet/utils/device_info.dart';
-import 'package:cake_wallet/view_model/settings/security_settings_view_model.dart';
+import 'package:foss_wallet/core/auth_service.dart';
+import 'package:foss_wallet/entities/pin_code_required_duration.dart';
+import 'package:foss_wallet/routes.dart';
+import 'package:foss_wallet/src/screens/base_page.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/src/screens/pin_code/pin_code_widget.dart';
+import 'package:foss_wallet/src/screens/settings/widgets/settings_cell_with_arrow.dart';
+import 'package:foss_wallet/src/screens/settings/widgets/settings_picker_cell.dart';
+import 'package:foss_wallet/src/screens/settings/widgets/settings_switcher_cell.dart';
+import 'package:foss_wallet/src/widgets/standard_list.dart';
+import 'package:foss_wallet/utils/device_info.dart';
+import 'package:foss_wallet/view_model/settings/security_settings_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 

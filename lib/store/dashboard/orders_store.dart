@@ -1,9 +1,9 @@
 import 'dart:async';
-import 'package:cake_wallet/buy/order.dart';
-import 'package:cake_wallet/view_model/dashboard/order_list_item.dart';
+import 'package:foss_wallet/buy/order.dart';
+import 'package:foss_wallet/view_model/dashboard/order_list_item.dart';
 import 'package:hive/hive.dart';
 import 'package:mobx/mobx.dart';
-import 'package:cake_wallet/store/settings_store.dart';
+import 'package:foss_wallet/store/settings_store.dart';
 
 part 'orders_store.g.dart';
 

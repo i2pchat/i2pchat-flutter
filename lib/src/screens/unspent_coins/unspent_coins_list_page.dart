@@ -1,13 +1,13 @@
-import 'package:cake_wallet/routes.dart';
-import 'package:cake_wallet/src/screens/unspent_coins/widgets/unspent_coins_list_item.dart';
-import 'package:cake_wallet/src/widgets/alert_with_one_action.dart';
-import 'package:cake_wallet/utils/show_pop_up.dart';
-import 'package:cake_wallet/view_model/unspent_coins/unspent_coins_list_view_model.dart';
+import 'package:foss_wallet/routes.dart';
+import 'package:foss_wallet/src/screens/unspent_coins/widgets/unspent_coins_list_item.dart';
+import 'package:foss_wallet/src/widgets/alert_with_one_action.dart';
+import 'package:foss_wallet/utils/show_pop_up.dart';
+import 'package:foss_wallet/view_model/unspent_coins/unspent_coins_list_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:cake_wallet/src/screens/base_page.dart';
+import 'package:foss_wallet/src/screens/base_page.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:cake_wallet/generated/i18n.dart';
+import 'package:foss_wallet/generated/i18n.dart';
 
 class UnspentCoinsListPage extends BasePage {
   UnspentCoinsListPage({required this.unspentCoinsListViewModel});

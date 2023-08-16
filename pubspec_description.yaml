@@ -1,6 +1,6 @@
-name: cake_wallet
-description: Cake Wallet.
-version: 0.0.0
+name: foss_wallet
+description: FossWallet.
+version: 1.0.6
 publish_to: none
 
 environment:

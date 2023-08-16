@@ -1,5 +1,5 @@
-import 'package:cake_wallet/buy/buy_provider_description.dart';
-import 'package:cake_wallet/buy/get_buy_provider_icon.dart';
+import 'package:foss_wallet/buy/buy_provider_description.dart';
+import 'package:foss_wallet/buy/get_buy_provider_icon.dart';
 import 'package:flutter/material.dart';
 
 class OrderRow extends StatelessWidget {

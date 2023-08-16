@@ -1,5 +1,5 @@
-import 'package:cake_wallet/core/execution_state.dart';
-import 'package:cake_wallet/store/settings_store.dart';
+import 'package:foss_wallet/core/execution_state.dart';
+import 'package:foss_wallet/store/settings_store.dart';
 import 'package:hive/hive.dart';
 import 'package:mobx/mobx.dart';
 import 'package:cw_core/node.dart';

@@ -29,7 +29,7 @@ import 'package:cw_core/transaction_priority.dart';
 import 'package:cw_core/output_info.dart';
 import 'package:cw_core/unspent_coins_info.dart';
 import 'package:cw_core/wallet_service.dart';
-import 'package:cake_wallet/view_model/send/output.dart';
+import 'package:foss_wallet/view_model/send/output.dart';
 import 'package:hive/hive.dart';""";
   const bitcoinCWHeaders = """
 import 'package:cw_bitcoin/electrum_wallet.dart';
@@ -129,7 +129,7 @@ import 'package:cw_core/transaction_history.dart';
 import 'package:cw_core/transaction_info.dart';
 import 'package:cw_core/balance.dart';
 import 'package:cw_core/output_info.dart';
-import 'package:cake_wallet/view_model/send/output.dart';
+import 'package:foss_wallet/view_model/send/output.dart';
 import 'package:cw_core/wallet_service.dart';
 import 'package:hive/hive.dart';""";
   const moneroCWHeaders = """
@@ -304,7 +304,7 @@ import 'package:cw_core/transaction_history.dart';
 import 'package:cw_core/transaction_info.dart';
 import 'package:cw_core/balance.dart';
 import 'package:cw_core/output_info.dart';
-import 'package:cake_wallet/view_model/send/output.dart';
+import 'package:foss_wallet/view_model/send/output.dart';
 import 'package:cw_core/wallet_service.dart';
 import 'package:hive/hive.dart';
 import 'package:cw_core/crypto_currency.dart';""";

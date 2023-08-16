@@ -1,14 +1,14 @@
 import 'dart:async';
-import 'package:cake_wallet/core/auth_service.dart';
-import 'package:cake_wallet/core/totp_request_details.dart';
-import 'package:cake_wallet/utils/device_info.dart';
-import 'package:cake_wallet/utils/payment_request.dart';
+import 'package:foss_wallet/core/auth_service.dart';
+import 'package:foss_wallet/core/totp_request_details.dart';
+import 'package:foss_wallet/utils/device_info.dart';
+import 'package:foss_wallet/utils/payment_request.dart';
 import 'package:flutter/material.dart';
-import 'package:cake_wallet/routes.dart';
-import 'package:cake_wallet/src/screens/auth/auth_page.dart';
-import 'package:cake_wallet/store/app_store.dart';
-import 'package:cake_wallet/store/authentication_store.dart';
-import 'package:cake_wallet/entities/qr_scanner.dart';
+import 'package:foss_wallet/routes.dart';
+import 'package:foss_wallet/src/screens/auth/auth_page.dart';
+import 'package:foss_wallet/store/app_store.dart';
+import 'package:foss_wallet/store/authentication_store.dart';
+import 'package:foss_wallet/entities/qr_scanner.dart';
 import 'package:uni_links/uni_links.dart';
 
 import '../setup_2fa/setup_2fa_enter_code_page.dart';

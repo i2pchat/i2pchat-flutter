@@ -1,6 +1,6 @@
-import 'package:cake_wallet/buy/onramper/onramper_buy_provider.dart';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/src/screens/base_page.dart';
+import 'package:foss_wallet/buy/onramper/onramper_buy_provider.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/src/screens/base_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:permission_handler/permission_handler.dart';

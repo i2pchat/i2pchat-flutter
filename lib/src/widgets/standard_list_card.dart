@@ -1,6 +1,6 @@
-import 'package:cake_wallet/palette.dart';
+import 'package:foss_wallet/palette.dart';
 import 'package:flutter/material.dart';
-import 'package:cake_wallet/themes/theme_base.dart';
+import 'package:foss_wallet/themes/theme_base.dart';
 
 class TradeDetailsStandardListCard extends StatelessWidget {
   TradeDetailsStandardListCard(

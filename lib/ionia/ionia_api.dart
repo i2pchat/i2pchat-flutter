@@ -1,11 +1,11 @@
 import 'dart:convert';
-import 'package:cake_wallet/ionia/ionia_merchant.dart';
-import 'package:cake_wallet/ionia/ionia_order.dart';
+import 'package:foss_wallet/ionia/ionia_merchant.dart';
+import 'package:foss_wallet/ionia/ionia_order.dart';
 import 'package:http/http.dart';
-import 'package:cake_wallet/ionia/ionia_user_credentials.dart';
-import 'package:cake_wallet/ionia/ionia_virtual_card.dart';
-import 'package:cake_wallet/ionia/ionia_category.dart';
-import 'package:cake_wallet/ionia/ionia_gift_card.dart';
+import 'package:foss_wallet/ionia/ionia_user_credentials.dart';
+import 'package:foss_wallet/ionia/ionia_virtual_card.dart';
+import 'package:foss_wallet/ionia/ionia_category.dart';
+import 'package:foss_wallet/ionia/ionia_gift_card.dart';
 
 class IoniaApi {
 	static const baseUri = 'api.ionia.io';

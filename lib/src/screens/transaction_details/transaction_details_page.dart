@@ -1,16 +1,16 @@
-import 'package:cake_wallet/src/screens/transaction_details/textfield_list_item.dart';
-import 'package:cake_wallet/src/screens/transaction_details/widgets/textfield_list_row.dart';
-import 'package:cake_wallet/src/widgets/standard_list.dart';
-import 'package:cake_wallet/utils/show_bar.dart';
-import 'package:cake_wallet/view_model/transaction_details_view_model.dart';
+import 'package:foss_wallet/src/screens/transaction_details/textfield_list_item.dart';
+import 'package:foss_wallet/src/screens/transaction_details/widgets/textfield_list_row.dart';
+import 'package:foss_wallet/src/widgets/standard_list.dart';
+import 'package:foss_wallet/utils/show_bar.dart';
+import 'package:foss_wallet/view_model/transaction_details_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/src/widgets/list_row.dart';
-import 'package:cake_wallet/src/screens/transaction_details/blockexplorer_list_item.dart';
-import 'package:cake_wallet/src/screens/transaction_details/standart_list_item.dart';
-import 'package:cake_wallet/src/screens/base_page.dart';
-import 'package:cake_wallet/utils/date_formatter.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/src/widgets/list_row.dart';
+import 'package:foss_wallet/src/screens/transaction_details/blockexplorer_list_item.dart';
+import 'package:foss_wallet/src/screens/transaction_details/standart_list_item.dart';
+import 'package:foss_wallet/src/screens/base_page.dart';
+import 'package:foss_wallet/utils/date_formatter.dart';
 
 import 'package:url_launcher/url_launcher.dart';
 

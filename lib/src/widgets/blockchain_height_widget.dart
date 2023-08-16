@@ -1,9 +1,9 @@
-import 'package:cake_wallet/utils/date_picker.dart';
+import 'package:foss_wallet/utils/date_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/monero/monero.dart';
-import 'package:cake_wallet/src/widgets/base_text_form_field.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/monero/monero.dart';
+import 'package:foss_wallet/src/widgets/base_text_form_field.dart';
 
 class BlockchainHeightWidget extends StatefulWidget {
   BlockchainHeightWidget({

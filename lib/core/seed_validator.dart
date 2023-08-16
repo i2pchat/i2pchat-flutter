@@ -1,10 +1,10 @@
-import 'package:cake_wallet/bitcoin/bitcoin.dart';
-import 'package:cake_wallet/haven/haven.dart';
-import 'package:cake_wallet/core/validator.dart';
-import 'package:cake_wallet/entities/mnemonic_item.dart';
+import 'package:foss_wallet/bitcoin/bitcoin.dart';
+import 'package:foss_wallet/haven/haven.dart';
+import 'package:foss_wallet/core/validator.dart';
+import 'package:foss_wallet/entities/mnemonic_item.dart';
 import 'package:cw_core/wallet_type.dart';
-import 'package:cake_wallet/monero/monero.dart';
-import 'package:cake_wallet/utils/language_list.dart';
+import 'package:foss_wallet/monero/monero.dart';
+import 'package:foss_wallet/utils/language_list.dart';
 
 class SeedValidator extends Validator<MnemonicItem> {
   SeedValidator({required this.type, required this.language})

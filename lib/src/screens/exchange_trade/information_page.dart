@@ -1,9 +1,9 @@
 import 'dart:ui';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/src/widgets/primary_button.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/src/widgets/primary_button.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:cake_wallet/src/widgets/alert_background.dart';
+import 'package:foss_wallet/src/widgets/alert_background.dart';
 
 class InformationPage extends StatelessWidget {
   InformationPage({required this.information});

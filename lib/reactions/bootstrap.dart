@@ -1,19 +1,19 @@
 import 'dart:async';
-import 'package:cake_wallet/reactions/fiat_rate_update.dart';
-import 'package:cake_wallet/reactions/on_current_fiat_api_mode_change.dart';
-import 'package:cake_wallet/reactions/on_current_node_change.dart';
+import 'package:foss_wallet/reactions/fiat_rate_update.dart';
+import 'package:foss_wallet/reactions/on_current_fiat_api_mode_change.dart';
+import 'package:foss_wallet/reactions/on_current_node_change.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/widgets.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:cake_wallet/di.dart';
-import 'package:cake_wallet/entities/preferences_key.dart';
-import 'package:cake_wallet/reactions/on_authentication_state_change.dart';
-import 'package:cake_wallet/reactions/on_current_fiat_change.dart';
-import 'package:cake_wallet/reactions/on_current_wallet_change.dart';
-import 'package:cake_wallet/store/app_store.dart';
-import 'package:cake_wallet/store/settings_store.dart';
-import 'package:cake_wallet/store/authentication_store.dart';
-import 'package:cake_wallet/store/dashboard/fiat_conversion_store.dart';
+import 'package:foss_wallet/di.dart';
+import 'package:foss_wallet/entities/preferences_key.dart';
+import 'package:foss_wallet/reactions/on_authentication_state_change.dart';
+import 'package:foss_wallet/reactions/on_current_fiat_change.dart';
+import 'package:foss_wallet/reactions/on_current_wallet_change.dart';
+import 'package:foss_wallet/store/app_store.dart';
+import 'package:foss_wallet/store/settings_store.dart';
+import 'package:foss_wallet/store/authentication_store.dart';
+import 'package:foss_wallet/store/dashboard/fiat_conversion_store.dart';
 
 Future<void> bootstrap(GlobalKey<NavigatorState> navigatorKey) async {
   final appStore = getIt.get<AppStore>();

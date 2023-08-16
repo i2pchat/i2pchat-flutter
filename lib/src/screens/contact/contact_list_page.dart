@@ -1,18 +1,18 @@
-import 'package:cake_wallet/entities/contact_base.dart';
-import 'package:cake_wallet/entities/contact_record.dart';
-import 'package:cake_wallet/utils/show_bar.dart';
-import 'package:cake_wallet/utils/show_pop_up.dart';
+import 'package:foss_wallet/entities/contact_base.dart';
+import 'package:foss_wallet/entities/contact_record.dart';
+import 'package:foss_wallet/utils/show_bar.dart';
+import 'package:foss_wallet/utils/show_pop_up.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
-import 'package:cake_wallet/routes.dart';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/src/screens/base_page.dart';
-import 'package:cake_wallet/src/widgets/alert_with_two_actions.dart';
-import 'package:cake_wallet/view_model/contact_list/contact_list_view_model.dart';
-import 'package:cake_wallet/src/widgets/collapsible_standart_list.dart';
+import 'package:foss_wallet/routes.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/src/screens/base_page.dart';
+import 'package:foss_wallet/src/widgets/alert_with_two_actions.dart';
+import 'package:foss_wallet/view_model/contact_list/contact_list_view_model.dart';
+import 'package:foss_wallet/src/widgets/collapsible_standart_list.dart';
 
 class ContactListPage extends BasePage {
   ContactListPage(this.contactListViewModel);

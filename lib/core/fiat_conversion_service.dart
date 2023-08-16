@@ -1,9 +1,9 @@
 import 'package:cw_core/crypto_currency.dart';
-import 'package:cake_wallet/entities/fiat_currency.dart';
+import 'package:foss_wallet/entities/fiat_currency.dart';
 import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart';
-import 'package:cake_wallet/.secrets.g.dart' as secrets;
+import 'package:foss_wallet/.secrets.g.dart' as secrets;
 
 
 const _fiatApiClearNetAuthority = 'fiat-api.cakewallet.com';

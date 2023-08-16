@@ -1,7 +1,7 @@
 import 'package:cw_core/unspent_coins_info.dart';
-import 'package:cake_wallet/bitcoin/bitcoin.dart';
+import 'package:foss_wallet/bitcoin/bitcoin.dart';
 import 'package:cw_core/wallet_base.dart';
-import 'package:cake_wallet/view_model/unspent_coins/unspent_coins_item.dart';
+import 'package:foss_wallet/view_model/unspent_coins/unspent_coins_item.dart';
 import 'package:hive/hive.dart';
 import 'package:mobx/mobx.dart';
 import 'package:collection/collection.dart';

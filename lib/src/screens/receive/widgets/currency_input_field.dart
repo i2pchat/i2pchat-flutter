@@ -1,5 +1,5 @@
-import 'package:cake_wallet/src/widgets/base_text_form_field.dart';
-import 'package:cake_wallet/utils/responsive_layout_util.dart';
+import 'package:foss_wallet/src/widgets/base_text_form_field.dart';
+import 'package:foss_wallet/utils/responsive_layout_util.dart';
 import 'package:cw_core/currency.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

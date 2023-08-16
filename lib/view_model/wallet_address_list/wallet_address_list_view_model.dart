@@ -1,22 +1,22 @@
-import 'package:cake_wallet/entities/fiat_currency.dart';
-import 'package:cake_wallet/store/dashboard/fiat_conversion_store.dart';
-import 'package:cake_wallet/store/yat/yat_store.dart';
+import 'package:foss_wallet/entities/fiat_currency.dart';
+import 'package:foss_wallet/store/dashboard/fiat_conversion_store.dart';
+import 'package:foss_wallet/store/yat/yat_store.dart';
 import 'package:cw_core/currency.dart';
 import 'package:intl/intl.dart';
 import 'package:mobx/mobx.dart';
 import 'package:cw_core/wallet_base.dart';
-import 'package:cake_wallet/utils/list_item.dart';
-import 'package:cake_wallet/view_model/wallet_address_list/wallet_account_list_header.dart';
-import 'package:cake_wallet/view_model/wallet_address_list/wallet_address_list_header.dart';
-import 'package:cake_wallet/view_model/wallet_address_list/wallet_address_list_item.dart';
+import 'package:foss_wallet/utils/list_item.dart';
+import 'package:foss_wallet/view_model/wallet_address_list/wallet_account_list_header.dart';
+import 'package:foss_wallet/view_model/wallet_address_list/wallet_address_list_header.dart';
+import 'package:foss_wallet/view_model/wallet_address_list/wallet_address_list_item.dart';
 import 'package:cw_core/wallet_type.dart';
-import 'package:cake_wallet/bitcoin/bitcoin.dart';
+import 'package:foss_wallet/bitcoin/bitcoin.dart';
 import 'package:cw_core/transaction_history.dart';
 import 'package:cw_core/balance.dart';
 import 'package:cw_core/transaction_info.dart';
-import 'package:cake_wallet/store/app_store.dart';
-import 'package:cake_wallet/monero/monero.dart';
-import 'package:cake_wallet/haven/haven.dart';
+import 'package:foss_wallet/store/app_store.dart';
+import 'package:foss_wallet/monero/monero.dart';
+import 'package:foss_wallet/haven/haven.dart';
 
 part 'wallet_address_list_view_model.g.dart';
 

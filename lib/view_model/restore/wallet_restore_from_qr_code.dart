@@ -1,8 +1,8 @@
-import 'package:cake_wallet/core/seed_validator.dart';
-import 'package:cake_wallet/entities/parse_address_from_domain.dart';
-import 'package:cake_wallet/entities/qr_scanner.dart';
-import 'package:cake_wallet/view_model/restore/restore_mode.dart';
-import 'package:cake_wallet/view_model/restore/restore_wallet.dart';
+import 'package:foss_wallet/core/seed_validator.dart';
+import 'package:foss_wallet/entities/parse_address_from_domain.dart';
+import 'package:foss_wallet/entities/qr_scanner.dart';
+import 'package:foss_wallet/view_model/restore/restore_mode.dart';
+import 'package:foss_wallet/view_model/restore/restore_wallet.dart';
 import 'package:cw_core/wallet_type.dart';
 import 'package:flutter/cupertino.dart';
 

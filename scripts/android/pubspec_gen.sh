@@ -5,7 +5,7 @@ echo "$0 entered"
 MONERO_COM=monero.com
 CAKEWALLET=cakewallet
 HAVEN=haven
-EW=easywallet
+EW=fosswallet
 CONFIG_ARGS=""
 
 case $APP_ANDROID_TYPE in

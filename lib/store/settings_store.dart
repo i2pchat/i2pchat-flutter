@@ -1,28 +1,31 @@
 import 'dart:io';
 
-import 'package:cake_wallet/bitcoin/bitcoin.dart';
-import 'package:cake_wallet/entities/exchange_api_mode.dart';
-import 'package:cake_wallet/entities/pin_code_required_duration.dart';
-import 'package:cake_wallet/entities/preferences_key.dart';
-import 'package:cake_wallet/utils/device_info.dart';
+import 'package:foss_wallet/bitcoin/bitcoin.dart';
+import 'package:foss_wallet/entities/exchange_api_mode.dart';
+import 'package:foss_wallet/entities/pin_code_required_duration.dart';
+import 'package:foss_wallet/entities/preferences_key.dart';
+import 'package:foss_wallet/utils/device_info.dart';
 import 'package:cw_core/transaction_priority.dart';
-import 'package:cake_wallet/themes/theme_base.dart';
-import 'package:cake_wallet/themes/theme_list.dart';
+import 'package:foss_wallet/themes/theme_base.dart';
+import 'package:foss_wallet/themes/theme_list.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:mobx/mobx.dart';
-import 'package:package_info/package_info.dart';
-import 'package:cake_wallet/di.dart';
+import 'package:package_info_plus_linux/package_info_plus_linux.dart';
+import 'package:package_info_plus/package_info_plus.dart';
+import 'package:package_info_plus_platform_interface/package_info_data.dart';
+import 'package:foss_wallet/di.dart';
 import 'package:cw_core/wallet_type.dart';
+import 'package:package_info_plus_platform_interface/package_info_platform_interface.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:cake_wallet/entities/language_service.dart';
-import 'package:cake_wallet/entities/balance_display_mode.dart';
-import 'package:cake_wallet/entities/fiat_currency.dart';
+import 'package:foss_wallet/entities/language_service.dart';
+import 'package:foss_wallet/entities/balance_display_mode.dart';
+import 'package:foss_wallet/entities/fiat_currency.dart';
 import 'package:cw_core/node.dart';
-import 'package:cake_wallet/monero/monero.dart';
-import 'package:cake_wallet/entities/action_list_display_mode.dart';
-import 'package:cake_wallet/entities/fiat_api_mode.dart';
+import 'package:foss_wallet/monero/monero.dart';
+import 'package:foss_wallet/entities/action_list_display_mode.dart';
+import 'package:foss_wallet/entities/fiat_api_mode.dart';
 import 'package:cw_core/set_app_secure_native.dart';
 
 part 'settings_store.g.dart';
@@ -385,7 +388,22 @@ abstract class SettingsStoreBase with Store {
     final bitcoinElectrumServer = nodeSource.get(bitcoinElectrumServerId);
     final litecoinElectrumServer = nodeSource.get(litecoinElectrumServerId);
     final havenNode = nodeSource.get(havenNodeId);
-    final packageInfo = await PackageInfo.fromPlatform();
+    var packageInfo00 = null;
+    if (Platform.isLinux) packageInfo00 = await PackageInfoLinux().getAll();
+    else {
+      WidgetsFlutterBinding.ensureInitialized();
+      PackageInfo packageInfo0 = await PackageInfo.fromPlatform();
+
+      String appName = packageInfo0.appName;
+      String packageName = packageInfo0.packageName;
+      String version = packageInfo0.version;
+      String buildNumber = packageInfo0.buildNumber;
+      String buildSignature = packageInfo0.buildSignature;
+      packageInfo00 = PackageInfoData(
+          appName: appName, packageName: packageName, version: version,
+          buildNumber: buildNumber, buildSignature: buildSignature);
+    }
+    final packageInfo = packageInfo00 as PackageInfoData;
     final deviceName = await _getDeviceName() ?? '';
     final shouldShowYatPopup = sharedPreferences.getBool(PreferencesKey.shouldShowYatPopup) ?? true;
 

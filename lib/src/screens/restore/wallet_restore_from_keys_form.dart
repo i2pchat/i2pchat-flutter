@@ -1,15 +1,15 @@
-import 'package:cake_wallet/view_model/wallet_restore_view_model.dart';
+import 'package:foss_wallet/view_model/wallet_restore_view_model.dart';
 import 'package:cw_core/wallet_type.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/src/widgets/blockchain_height_widget.dart';
-import 'package:cake_wallet/src/widgets/base_text_form_field.dart';
-import 'package:cake_wallet/src/widgets/base_text_form_field.dart';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/core/wallet_name_validator.dart';
-import 'package:cake_wallet/entities/generate_name.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/src/widgets/blockchain_height_widget.dart';
+import 'package:foss_wallet/src/widgets/base_text_form_field.dart';
+import 'package:foss_wallet/src/widgets/base_text_form_field.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/core/wallet_name_validator.dart';
+import 'package:foss_wallet/entities/generate_name.dart';
 
 class WalletRestoreFromKeysFrom extends StatefulWidget {
   WalletRestoreFromKeysFrom({

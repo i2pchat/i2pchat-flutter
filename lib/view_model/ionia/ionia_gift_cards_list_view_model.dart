@@ -1,7 +1,7 @@
-import 'package:cake_wallet/ionia/ionia_category.dart';
-import 'package:cake_wallet/ionia/ionia_service.dart';
-import 'package:cake_wallet/ionia/ionia_create_state.dart';
-import 'package:cake_wallet/ionia/ionia_merchant.dart';
+import 'package:foss_wallet/ionia/ionia_category.dart';
+import 'package:foss_wallet/ionia/ionia_service.dart';
+import 'package:foss_wallet/ionia/ionia_create_state.dart';
+import 'package:foss_wallet/ionia/ionia_merchant.dart';
 import 'package:mobx/mobx.dart';
 part 'ionia_gift_cards_list_view_model.g.dart';
 

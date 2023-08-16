@@ -9,7 +9,7 @@ APP_ANDROID_PACKAGE=""
 MONERO_COM="monero.com"
 CAKEWALLET="cakewallet"
 HAVEN="haven"
-EW="easywallet"
+EW="fosswallet"
 
 TYPES=($EW)
 APP_ANDROID_TYPE=$1
@@ -32,11 +32,11 @@ HAVEN_BUILD_NUMBER=1
 HAVEN_BUNDLE_ID="com.cakewallet.haven"
 HAVEN_PACKAGE="com.cakewallet.haven"
 
-EW_NAME="Easy Wallet"
-EW_VERSION="1.0.0"
-EW_BUILD_NUMBER=1
-EW_BUNDLE_ID="com.tranoo.easywallet.flutterui"
-EW_PACKAGE="com.tranoo.easywallet.flutterui"
+EW_NAME="FossWallet"
+EW_VERSION="1.0.6"
+EW_BUILD_NUMBER=6
+EW_BUNDLE_ID="com.github.fosswallet"
+EW_PACKAGE="com.github.fosswallet"
 
 if ! [[ " ${TYPES[*]} " =~ " ${APP_ANDROID_TYPE} " ]]; then
     echo "Wrong app type."

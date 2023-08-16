@@ -1,14 +1,14 @@
 import 'package:cw_core/wallet_type.dart';
-import 'package:cake_wallet/src/widgets/validable_annotated_editable_text.dart';
-import 'package:cake_wallet/src/widgets/blockchain_height_widget.dart';
+import 'package:foss_wallet/src/widgets/validable_annotated_editable_text.dart';
+import 'package:foss_wallet/src/widgets/blockchain_height_widget.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:cake_wallet/palette.dart';
-import 'package:cake_wallet/core/seed_validator.dart';
-import 'package:cake_wallet/src/widgets/primary_button.dart';
-import 'package:cake_wallet/entities/mnemonic_item.dart';
-import 'package:cake_wallet/generated/i18n.dart';
+import 'package:foss_wallet/palette.dart';
+import 'package:foss_wallet/core/seed_validator.dart';
+import 'package:foss_wallet/src/widgets/primary_button.dart';
+import 'package:foss_wallet/entities/mnemonic_item.dart';
+import 'package:foss_wallet/generated/i18n.dart';
 import 'package:flutter/widgets.dart';
 
 class SeedWidget extends StatefulWidget {

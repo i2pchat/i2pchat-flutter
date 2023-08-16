@@ -1,12 +1,12 @@
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/view_model/settings/link_list_item.dart';
-import 'package:cake_wallet/view_model/settings/regular_list_item.dart';
-import 'package:cake_wallet/view_model/settings/settings_list_item.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/view_model/settings/link_list_item.dart';
+import 'package:foss_wallet/view_model/settings/regular_list_item.dart';
+import 'package:foss_wallet/view_model/settings/settings_list_item.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:mobx/mobx.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:cake_wallet/wallet_type_utils.dart';
+import 'package:foss_wallet/wallet_type_utils.dart';
 
 part 'support_view_model.g.dart';
 
@@ -25,20 +25,20 @@ abstract class SupportViewModelBase with Store {
       ),
       LinkListItem(
           title: 'Email',
-          linkTitle: 'support@tranoo.com',
-          link: 'mailto:support@tranoo.com'),
+          linkTitle: 'tranoo1234@gmail.com',
+          link: 'mailto:tranoo1234@gmail.com'),
       if (!isMoneroOnly)
         LinkListItem(
             title: 'Website',
-            linkTitle: 'easy-wallet.tranoo.com',
-            link: 'https://easy-wallet.tranoo.com'),
+            linkTitle: 'fosswallet.github.io',
+            link: 'https://fosswallet.github.io'),
       if (!isMoneroOnly)      
         LinkListItem(
             title: 'GitHub',
             icon: 'assets/images/github.png',
             hasIconColor: true,
             linkTitle: S.current.apk_update,
-            link: 'https://github.com/easy-wallet/easy-wallet/releases'),
+            link: 'https://github.com/FossWallet/FossWallet/releases'),
       /*LinkListItem(
           title: 'Telegram',
           icon: 'assets/images/Telegram.png',
@@ -87,7 +87,7 @@ abstract class SupportViewModelBase with Store {
       //    link: 'mailto:support@y.at')
   ];
 
-  static const url = 'https://easy-wallet.tranoo.com/guides';
+  static const url = 'https://fosswallet.github.io/guides';
 
   List<SettingsListItem> items;
 }

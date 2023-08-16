@@ -1,9 +1,9 @@
-import 'package:cake_wallet/palette.dart';
-import 'package:cake_wallet/view_model/send/output.dart';
+import 'package:foss_wallet/palette.dart';
+import 'package:foss_wallet/view_model/send/output.dart';
 import 'package:flutter/material.dart';
-import 'package:cake_wallet/src/widgets/base_alert_dialog.dart';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/src/widgets/cake_scrollbar.dart';
+import 'package:foss_wallet/src/widgets/base_alert_dialog.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/src/widgets/cake_scrollbar.dart';
 import 'package:flutter/scheduler.dart';
 
 class ConfirmSendingAlert extends BaseAlertDialog {

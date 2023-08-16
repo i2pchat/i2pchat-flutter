@@ -1,13 +1,13 @@
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/store/app_store.dart';
-import 'package:cake_wallet/utils/mobx.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/store/app_store.dart';
+import 'package:foss_wallet/utils/mobx.dart';
 import 'package:hive/hive.dart';
 import 'package:mobx/mobx.dart';
 import 'package:cw_core/wallet_base.dart';
-import 'package:cake_wallet/store/settings_store.dart';
+import 'package:foss_wallet/store/settings_store.dart';
 import 'package:cw_core/node.dart';
-import 'package:cake_wallet/entities/node_list.dart';
-import 'package:cake_wallet/entities/default_settings_migration.dart';
+import 'package:foss_wallet/entities/node_list.dart';
+import 'package:foss_wallet/entities/default_settings_migration.dart';
 import 'package:cw_core/wallet_type.dart';
 
 part 'node_list_view_model.g.dart';

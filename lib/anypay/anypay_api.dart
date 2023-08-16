@@ -1,12 +1,12 @@
 import 'dart:convert';
-import 'package:cake_wallet/anypay/any_pay_payment_committed_info.dart';
-import 'package:cake_wallet/utils/exception_handler.dart';
+import 'package:foss_wallet/anypay/any_pay_payment_committed_info.dart';
+import 'package:foss_wallet/utils/exception_handler.dart';
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart';
 import 'package:cw_core/crypto_currency.dart';
-import 'package:cake_wallet/anypay/any_pay_payment.dart';
-import 'package:cake_wallet/anypay/any_pay_trasnaction.dart';
-import 'package:cake_wallet/.secrets.g.dart' as secrets;
+import 'package:foss_wallet/anypay/any_pay_payment.dart';
+import 'package:foss_wallet/anypay/any_pay_trasnaction.dart';
+import 'package:foss_wallet/.secrets.g.dart' as secrets;
 
 class AnyPayApi {
 	static const contentTypePaymentRequest = 'application/payment-request';

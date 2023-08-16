@@ -1,17 +1,17 @@
-import 'package:cake_wallet/view_model/send/output.dart';
+import 'package:foss_wallet/view_model/send/output.dart';
 import 'package:cw_core/wallet_type.dart';
 import 'package:mobx/mobx.dart';
-import 'package:cake_wallet/entities/template.dart';
-import 'package:cake_wallet/store/templates/send_template_store.dart';
-import 'package:cake_wallet/core/template_validator.dart';
-import 'package:cake_wallet/core/address_validator.dart';
-import 'package:cake_wallet/core/amount_validator.dart';
-import 'package:cake_wallet/core/validator.dart';
+import 'package:foss_wallet/entities/template.dart';
+import 'package:foss_wallet/store/templates/send_template_store.dart';
+import 'package:foss_wallet/core/template_validator.dart';
+import 'package:foss_wallet/core/address_validator.dart';
+import 'package:foss_wallet/core/amount_validator.dart';
+import 'package:foss_wallet/core/validator.dart';
 import 'package:cw_core/wallet_base.dart';
 import 'package:cw_core/crypto_currency.dart';
-import 'package:cake_wallet/entities/fiat_currency.dart';
-import 'package:cake_wallet/store/dashboard/fiat_conversion_store.dart';
-import 'package:cake_wallet/store/settings_store.dart';
+import 'package:foss_wallet/entities/fiat_currency.dart';
+import 'package:foss_wallet/store/dashboard/fiat_conversion_store.dart';
+import 'package:foss_wallet/store/settings_store.dart';
 
 part 'send_template_view_model.g.dart';
 

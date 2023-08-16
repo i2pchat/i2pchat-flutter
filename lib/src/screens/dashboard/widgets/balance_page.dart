@@ -1,15 +1,15 @@
-import 'package:cake_wallet/src/screens/exchange_trade/information_page.dart';
-import 'package:cake_wallet/store/settings_store.dart';
-import 'package:cake_wallet/themes/theme_base.dart';
-import 'package:cake_wallet/utils/feature_flag.dart';
-import 'package:cake_wallet/utils/responsive_layout_util.dart';
-import 'package:cake_wallet/utils/show_pop_up.dart';
+import 'package:foss_wallet/src/screens/exchange_trade/information_page.dart';
+import 'package:foss_wallet/store/settings_store.dart';
+import 'package:foss_wallet/themes/theme_base.dart';
+import 'package:foss_wallet/utils/feature_flag.dart';
+import 'package:foss_wallet/utils/responsive_layout_util.dart';
+import 'package:foss_wallet/utils/show_pop_up.dart';
 import 'package:flutter/material.dart';
-import 'package:cake_wallet/view_model/dashboard/dashboard_view_model.dart';
+import 'package:foss_wallet/view_model/dashboard/dashboard_view_model.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:cake_wallet/src/widgets/introducing_card.dart';
-import 'package:cake_wallet/generated/i18n.dart';
+import 'package:foss_wallet/src/widgets/introducing_card.dart';
+import 'package:foss_wallet/generated/i18n.dart';
 
 class BalancePage extends StatelessWidget {
   BalancePage({required this.dashboardViewModel, required this.settingsStore});

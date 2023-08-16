@@ -1,16 +1,16 @@
 import 'dart:ui';
-import 'package:cake_wallet/palette.dart';
-import 'package:cake_wallet/routes.dart';
-import 'package:cake_wallet/utils/show_pop_up.dart';
+import 'package:foss_wallet/palette.dart';
+import 'package:foss_wallet/routes.dart';
+import 'package:foss_wallet/utils/show_pop_up.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:cake_wallet/src/screens/base_page.dart';
-import 'package:cake_wallet/src/widgets/primary_button.dart';
-import 'package:cake_wallet/src/widgets/alert_with_one_action.dart';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/wallet_type_utils.dart';
+import 'package:foss_wallet/src/screens/base_page.dart';
+import 'package:foss_wallet/src/widgets/primary_button.dart';
+import 'package:foss_wallet/src/widgets/alert_with_one_action.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/wallet_type_utils.dart';
 
 class DisclaimerPage extends BasePage {
   DisclaimerPage({this.isReadOnly = false});

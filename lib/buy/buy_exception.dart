@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:cake_wallet/buy/buy_provider_description.dart';
+import 'package:foss_wallet/buy/buy_provider_description.dart';
 
 class BuyException implements Exception {
   BuyException({required this.description, required this.text});

@@ -1,6 +1,6 @@
 import 'package:mobx/mobx.dart';
 import 'package:cw_core/node.dart';
-import 'package:cake_wallet/store/app_store.dart';
+import 'package:foss_wallet/store/app_store.dart';
 
 ReactionDisposer? _onCurrentNodeChangeReaction;
 

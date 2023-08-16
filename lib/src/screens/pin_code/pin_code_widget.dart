@@ -1,8 +1,8 @@
-import 'package:cake_wallet/utils/responsive_layout_util.dart';
-import 'package:cake_wallet/utils/show_bar.dart';
+import 'package:foss_wallet/utils/responsive_layout_util.dart';
+import 'package:foss_wallet/utils/show_bar.dart';
 import 'package:another_flushbar/flushbar.dart';
 import 'package:flutter/material.dart';
-import 'package:cake_wallet/generated/i18n.dart';
+import 'package:foss_wallet/generated/i18n.dart';
 import 'package:flutter/services.dart';
 
 class PinCodeWidget extends StatefulWidget {

@@ -1,12 +1,12 @@
 import 'dart:async';
-import 'package:cake_wallet/entities/wallet_contact.dart';
+import 'package:foss_wallet/entities/wallet_contact.dart';
 import 'package:cw_core/wallet_info.dart';
 import 'package:cw_core/wallet_type.dart';
 import 'package:hive/hive.dart';
 import 'package:mobx/mobx.dart';
-import 'package:cake_wallet/entities/contact_record.dart';
-import 'package:cake_wallet/entities/contact.dart';
-import 'package:cake_wallet/utils/mobx.dart';
+import 'package:foss_wallet/entities/contact_record.dart';
+import 'package:foss_wallet/entities/contact.dart';
+import 'package:foss_wallet/utils/mobx.dart';
 import 'package:cw_core/crypto_currency.dart';
 
 part 'contact_list_view_model.g.dart';

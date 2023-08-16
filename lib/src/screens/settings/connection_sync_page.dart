@@ -1,17 +1,17 @@
-import 'package:cake_wallet/src/screens/settings/widgets/settings_cell_with_arrow.dart';
-import 'package:cake_wallet/utils/show_pop_up.dart';
-import 'package:cake_wallet/view_model/dashboard/dashboard_view_model.dart';
+import 'package:foss_wallet/src/screens/settings/widgets/settings_cell_with_arrow.dart';
+import 'package:foss_wallet/utils/show_pop_up.dart';
+import 'package:foss_wallet/view_model/dashboard/dashboard_view_model.dart';
 import 'package:cw_core/node.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:cake_wallet/routes.dart';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/src/screens/base_page.dart';
-import 'package:cake_wallet/src/screens/nodes/widgets/node_list_row.dart';
-import 'package:cake_wallet/src/widgets/standard_list.dart';
-import 'package:cake_wallet/src/widgets/alert_with_two_actions.dart';
-import 'package:cake_wallet/view_model/node_list/node_list_view_model.dart';
+import 'package:foss_wallet/routes.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/src/screens/base_page.dart';
+import 'package:foss_wallet/src/screens/nodes/widgets/node_list_row.dart';
+import 'package:foss_wallet/src/widgets/standard_list.dart';
+import 'package:foss_wallet/src/widgets/alert_with_two_actions.dart';
+import 'package:foss_wallet/view_model/node_list/node_list_view_model.dart';
 
 class ConnectionSyncPage extends BasePage {
   ConnectionSyncPage(this.nodeListViewModel, this.dashboardViewModel);

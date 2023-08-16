@@ -2,12 +2,12 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:mobx/mobx.dart';
-import 'package:cake_wallet/view_model/auth_state.dart';
-import 'package:cake_wallet/core/auth_service.dart';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/core/execution_state.dart';
-import 'package:cake_wallet/entities/biometric_auth.dart';
-import 'package:cake_wallet/store/settings_store.dart';
+import 'package:foss_wallet/view_model/auth_state.dart';
+import 'package:foss_wallet/core/auth_service.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/core/execution_state.dart';
+import 'package:foss_wallet/entities/biometric_auth.dart';
+import 'package:foss_wallet/store/settings_store.dart';
 
 part 'auth_view_model.g.dart';
 

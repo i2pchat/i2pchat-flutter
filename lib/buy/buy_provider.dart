@@ -1,6 +1,6 @@
-import 'package:cake_wallet/buy/buy_amount.dart';
-import 'package:cake_wallet/buy/buy_provider_description.dart';
-import 'package:cake_wallet/buy/order.dart';
+import 'package:foss_wallet/buy/buy_amount.dart';
+import 'package:foss_wallet/buy/buy_provider_description.dart';
+import 'package:foss_wallet/buy/order.dart';
 import 'package:cw_core/wallet_base.dart';
 import 'package:cw_core/wallet_type.dart';
 

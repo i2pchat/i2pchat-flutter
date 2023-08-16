@@ -1,9 +1,9 @@
-import 'package:cake_wallet/routes.dart';
-import 'package:cake_wallet/utils/exception_handler.dart';
+import 'package:foss_wallet/routes.dart';
+import 'package:foss_wallet/utils/exception_handler.dart';
 import 'package:flutter/widgets.dart';
 import 'package:mobx/mobx.dart';
-import 'package:cake_wallet/entities/load_current_wallet.dart';
-import 'package:cake_wallet/store/authentication_store.dart';
+import 'package:foss_wallet/entities/load_current_wallet.dart';
+import 'package:foss_wallet/store/authentication_store.dart';
 
 ReactionDisposer? _onAuthenticationStateChange;
 

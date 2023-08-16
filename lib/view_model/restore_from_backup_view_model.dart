@@ -1,13 +1,13 @@
 import 'dart:io';
-import 'package:cake_wallet/core/execution_state.dart';
+import 'package:foss_wallet/core/execution_state.dart';
 import 'package:hive/hive.dart';
 import 'package:mobx/mobx.dart';
-import 'package:cake_wallet/main.dart';
-import 'package:cake_wallet/di.dart';
-import 'package:cake_wallet/core/backup_service.dart';
+import 'package:foss_wallet/main.dart';
+import 'package:foss_wallet/di.dart';
+import 'package:foss_wallet/core/backup_service.dart';
 import 'package:cw_core/node.dart';
-import 'package:cake_wallet/store/app_store.dart';
-import 'package:cake_wallet/store/authentication_store.dart';
+import 'package:foss_wallet/store/app_store.dart';
+import 'package:foss_wallet/store/authentication_store.dart';
 
 part 'restore_from_backup_view_model.g.dart';
 

@@ -1,16 +1,16 @@
-# Easy Wallet
+# FossWallet
 
 TODO The content below should be reworked.
 
-# Easy Wallet for Android
+# FossWallet for Android
 
 ## Open Source Multi-Currency Wallet
 
 ## Links
 
-* Website: https://easy-wallet.tranoo.com/
-* Google Play: https://easy-wallet.tranoo.com/google-play
-* APK: https://github.com/easy-wallet/easy-wallet/releases
+* Website: https://fosswallet.github.io/
+* Google Play: https://fosswallet.github.io/google-play
+* APK: https://github.com/foss-wallet/foss-wallet/releases
 
 ## Features
 
@@ -58,10 +58,10 @@ TODO The content below should be reworked.
 
 # Support
 
-We have 24/7 free support. Please contact support@tranoo.com
+We have 24/7 free support. Please contact tranoo1234@gmail.com
 
 We have excellent user guides, which are also open-source and open for contributions:
-https://easy-wallet.tranoo.com/guides
+https://fosswallet.github.io/guides
 
 # Build Instructions
 
@@ -115,7 +115,7 @@ Or you can use another program like Photoshop.
 
 ## Add a new fiat currency
 
-1. Check with [Easy Wallet support](https://easy-wallet.tranoo.com/guides) to see if the
+1. Check with [FossWallet support](https://fosswallet.github.io/guides) to see if the
 desired new fiat currency is available through our fiat API. Not all fiat currencies are.
 
 2. If the currency is associated strongly with a specific issuing country,
@@ -135,4 +135,4 @@ pixels with a 3 pixels of transparent margin on all 4 sides.
 ---
 
 Copyright (C) 2018-2023 Cake Labs LLC
-Copyright (C) 2023 Easy Wallet team. All Rights Reserved.
+Copyright (C) 2023 FossWallet team. All Rights Reserved.

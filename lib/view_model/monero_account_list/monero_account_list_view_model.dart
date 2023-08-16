@@ -2,9 +2,9 @@ import 'package:cw_core/crypto_currency.dart';
 import 'package:cw_core/wallet_type.dart';
 import 'package:mobx/mobx.dart';
 import 'package:cw_core/wallet_base.dart';
-import 'package:cake_wallet/view_model/monero_account_list/account_list_item.dart';
-import 'package:cake_wallet/monero/monero.dart';
-import 'package:cake_wallet/haven/haven.dart';
+import 'package:foss_wallet/view_model/monero_account_list/account_list_item.dart';
+import 'package:foss_wallet/monero/monero.dart';
+import 'package:foss_wallet/haven/haven.dart';
 
 part 'monero_account_list_view_model.g.dart';
 

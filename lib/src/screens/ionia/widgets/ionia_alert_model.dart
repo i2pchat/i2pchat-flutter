@@ -1,6 +1,6 @@
-import 'package:cake_wallet/src/widgets/alert_background.dart';
-import 'package:cake_wallet/src/widgets/primary_button.dart';
-import 'package:cake_wallet/typography.dart';
+import 'package:foss_wallet/src/widgets/alert_background.dart';
+import 'package:foss_wallet/src/widgets/primary_button.dart';
+import 'package:foss_wallet/typography.dart';
 import 'package:flutter/material.dart';
 
 class IoniaAlertModal extends StatelessWidget {

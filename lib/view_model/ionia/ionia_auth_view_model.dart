@@ -1,5 +1,5 @@
-import 'package:cake_wallet/ionia/ionia_create_state.dart';
-import 'package:cake_wallet/ionia/ionia_service.dart';
+import 'package:foss_wallet/ionia/ionia_create_state.dart';
+import 'package:foss_wallet/ionia/ionia_service.dart';
 import 'package:mobx/mobx.dart';
 
 part 'ionia_auth_view_model.g.dart';

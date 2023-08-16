@@ -1,9 +1,9 @@
 import 'package:hive/hive.dart';
 import 'package:mobx/mobx.dart';
-import 'package:cake_wallet/entities/contact.dart';
+import 'package:foss_wallet/entities/contact.dart';
 import 'package:cw_core/crypto_currency.dart';
-import 'package:cake_wallet/entities/record.dart';
-import 'package:cake_wallet/entities/contact_base.dart';
+import 'package:foss_wallet/entities/record.dart';
+import 'package:foss_wallet/entities/contact_base.dart';
 
 part 'contact_record.g.dart';
 

@@ -1,19 +1,19 @@
-import 'package:cake_wallet/utils/payment_request.dart';
+import 'package:foss_wallet/utils/payment_request.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:mobx/mobx.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:keyboard_actions/keyboard_actions.dart';
-import 'package:cake_wallet/src/screens/base_page.dart';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/view_model/send/send_template_view_model.dart';
-import 'package:cake_wallet/src/widgets/address_text_field.dart';
-import 'package:cake_wallet/src/widgets/base_text_form_field.dart';
-import 'package:cake_wallet/src/widgets/keyboard_done_button.dart';
-import 'package:cake_wallet/src/widgets/primary_button.dart';
-import 'package:cake_wallet/src/widgets/scollable_with_bottom_section.dart';
-import 'package:cake_wallet/src/screens/send/widgets/prefix_currency_icon_widget.dart';
+import 'package:foss_wallet/src/screens/base_page.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/view_model/send/send_template_view_model.dart';
+import 'package:foss_wallet/src/widgets/address_text_field.dart';
+import 'package:foss_wallet/src/widgets/base_text_form_field.dart';
+import 'package:foss_wallet/src/widgets/keyboard_done_button.dart';
+import 'package:foss_wallet/src/widgets/primary_button.dart';
+import 'package:foss_wallet/src/widgets/scollable_with_bottom_section.dart';
+import 'package:foss_wallet/src/screens/send/widgets/prefix_currency_icon_widget.dart';
 
 class SendTemplatePage extends BasePage {
   SendTemplatePage({required this.sendTemplateViewModel}) {

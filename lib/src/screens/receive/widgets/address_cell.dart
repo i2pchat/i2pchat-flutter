@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/view_model/wallet_address_list/wallet_address_list_item.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/view_model/wallet_address_list/wallet_address_list_item.dart';
 
 class AddressCell extends StatelessWidget {
   AddressCell(

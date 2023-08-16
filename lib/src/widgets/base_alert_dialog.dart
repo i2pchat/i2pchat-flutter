@@ -1,7 +1,7 @@
 import 'dart:ui';
-import 'package:cake_wallet/src/widgets/section_divider.dart';
+import 'package:foss_wallet/src/widgets/section_divider.dart';
 import 'package:flutter/material.dart';
-import 'package:cake_wallet/palette.dart';
+import 'package:foss_wallet/palette.dart';
 
 class BaseAlertDialog extends StatelessWidget {
   String get titleText => '';

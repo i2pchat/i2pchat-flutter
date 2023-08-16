@@ -1,7 +1,7 @@
 import 'package:mobx/mobx.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'package:cake_wallet/entities/secret_store_key.dart';
-import 'package:cake_wallet/store/secret_store.dart';
+import 'package:foss_wallet/entities/secret_store_key.dart';
+import 'package:foss_wallet/store/secret_store.dart';
 
 part 'edit_backup_password_view_model.g.dart';
 

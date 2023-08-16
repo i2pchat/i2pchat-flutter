@@ -1,22 +1,22 @@
-import 'package:cake_wallet/entities/generate_name.dart';
-import 'package:cake_wallet/main.dart';
-import 'package:cake_wallet/routes.dart';
-import 'package:cake_wallet/themes/theme_base.dart';
-import 'package:cake_wallet/utils/responsive_layout_util.dart';
-import 'package:cake_wallet/utils/show_pop_up.dart';
+import 'package:foss_wallet/entities/generate_name.dart';
+import 'package:foss_wallet/main.dart';
+import 'package:foss_wallet/routes.dart';
+import 'package:foss_wallet/themes/theme_base.dart';
+import 'package:foss_wallet/utils/responsive_layout_util.dart';
+import 'package:foss_wallet/utils/show_pop_up.dart';
 import 'package:mobx/mobx.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutter/material.dart';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/core/wallet_name_validator.dart';
-import 'package:cake_wallet/src/widgets/seed_language_selector.dart';
-import 'package:cake_wallet/src/screens/base_page.dart';
-import 'package:cake_wallet/src/widgets/primary_button.dart';
-import 'package:cake_wallet/src/widgets/scollable_with_bottom_section.dart';
-import 'package:cake_wallet/src/screens/seed_language/widgets/seed_language_picker.dart';
-import 'package:cake_wallet/src/widgets/alert_with_one_action.dart';
-import 'package:cake_wallet/core/execution_state.dart';
-import 'package:cake_wallet/view_model/wallet_new_vm.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/core/wallet_name_validator.dart';
+import 'package:foss_wallet/src/widgets/seed_language_selector.dart';
+import 'package:foss_wallet/src/screens/base_page.dart';
+import 'package:foss_wallet/src/widgets/primary_button.dart';
+import 'package:foss_wallet/src/widgets/scollable_with_bottom_section.dart';
+import 'package:foss_wallet/src/screens/seed_language/widgets/seed_language_picker.dart';
+import 'package:foss_wallet/src/widgets/alert_with_one_action.dart';
+import 'package:foss_wallet/core/execution_state.dart';
+import 'package:foss_wallet/view_model/wallet_new_vm.dart';
 
 class NewWalletPage extends BasePage {
   NewWalletPage(this._walletNewVM);

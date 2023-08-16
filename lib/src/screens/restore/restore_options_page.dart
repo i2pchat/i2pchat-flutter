@@ -1,19 +1,19 @@
-import 'package:cake_wallet/core/execution_state.dart';
-import 'package:cake_wallet/di.dart';
-import 'package:cake_wallet/src/screens/pin_code/pin_code_widget.dart';
-import 'package:cake_wallet/src/widgets/alert_with_one_action.dart';
-import 'package:cake_wallet/utils/language_list.dart';
-import 'package:cake_wallet/utils/show_pop_up.dart';
-import 'package:cake_wallet/view_model/restore/restore_from_qr_vm.dart';
-import 'package:cake_wallet/view_model/restore/wallet_restore_from_qr_code.dart';
-import 'package:cake_wallet/utils/responsive_layout_util.dart';
-import 'package:cake_wallet/wallet_type_utils.dart';
+import 'package:foss_wallet/core/execution_state.dart';
+import 'package:foss_wallet/di.dart';
+import 'package:foss_wallet/src/screens/pin_code/pin_code_widget.dart';
+import 'package:foss_wallet/src/widgets/alert_with_one_action.dart';
+import 'package:foss_wallet/utils/language_list.dart';
+import 'package:foss_wallet/utils/show_pop_up.dart';
+import 'package:foss_wallet/view_model/restore/restore_from_qr_vm.dart';
+import 'package:foss_wallet/view_model/restore/wallet_restore_from_qr_code.dart';
+import 'package:foss_wallet/utils/responsive_layout_util.dart';
+import 'package:foss_wallet/wallet_type_utils.dart';
 import 'package:flutter/material.dart';
-import 'package:cake_wallet/routes.dart';
+import 'package:foss_wallet/routes.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:cake_wallet/src/screens/restore/widgets/restore_button.dart';
-import 'package:cake_wallet/src/screens/base_page.dart';
-import 'package:cake_wallet/generated/i18n.dart';
+import 'package:foss_wallet/src/screens/restore/widgets/restore_button.dart';
+import 'package:foss_wallet/src/screens/base_page.dart';
+import 'package:foss_wallet/generated/i18n.dart';
 
 class RestoreOptionsPage extends BasePage {
   RestoreOptionsPage({required this.isNewInstall});

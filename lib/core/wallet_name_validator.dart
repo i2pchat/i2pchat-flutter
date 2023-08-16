@@ -1,5 +1,5 @@
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/core/validator.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/core/validator.dart';
 
 class WalletNameValidator extends TextValidator {
   WalletNameValidator()

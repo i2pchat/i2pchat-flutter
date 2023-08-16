@@ -1,7 +1,7 @@
 
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/typography.dart';
-import 'package:cake_wallet/utils/show_bar.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/typography.dart';
+import 'package:foss_wallet/utils/show_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:share_plus/share_plus.dart';

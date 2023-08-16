@@ -1,5 +1,5 @@
-import 'package:cake_wallet/entities/openalias_record.dart';
-import 'package:cake_wallet/entities/yat_record.dart';
+import 'package:foss_wallet/entities/openalias_record.dart';
+import 'package:foss_wallet/entities/yat_record.dart';
 
 enum ParseFrom { unstoppableDomains, openAlias, yatRecord, fio, notParsed, twitter }
 

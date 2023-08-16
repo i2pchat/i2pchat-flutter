@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:cake_wallet/src/widgets/picker.dart';
+import 'package:foss_wallet/src/widgets/picker.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:cake_wallet/generated/i18n.dart';
+import 'package:foss_wallet/generated/i18n.dart';
 
 List<Image> flagImages = [
   Image.asset('assets/images/flags/usa.png'),

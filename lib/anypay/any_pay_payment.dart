@@ -1,8 +1,8 @@
-import 'package:cake_wallet/anypay/any_pay_chain.dart';
+import 'package:foss_wallet/anypay/any_pay_chain.dart';
 import 'package:flutter/foundation.dart';
-import 'package:cake_wallet/anypay/any_pay_payment_instruction.dart';
-import 'package:cake_wallet/bitcoin/bitcoin.dart';
-import 'package:cake_wallet/monero/monero.dart';
+import 'package:foss_wallet/anypay/any_pay_payment_instruction.dart';
+import 'package:foss_wallet/bitcoin/bitcoin.dart';
+import 'package:foss_wallet/monero/monero.dart';
 
 class AnyPayPayment {
 	AnyPayPayment({

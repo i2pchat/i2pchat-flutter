@@ -1,9 +1,9 @@
-import 'package:cake_wallet/entities/balance_display_mode.dart';
-import 'package:cake_wallet/entities/fiat_currency.dart';
-import 'package:cake_wallet/store/settings_store.dart';
-import 'package:cake_wallet/themes/theme_base.dart';
+import 'package:foss_wallet/entities/balance_display_mode.dart';
+import 'package:foss_wallet/entities/fiat_currency.dart';
+import 'package:foss_wallet/store/settings_store.dart';
+import 'package:foss_wallet/themes/theme_base.dart';
 import 'package:mobx/mobx.dart';
-import 'package:cake_wallet/entities/fiat_api_mode.dart';
+import 'package:foss_wallet/entities/fiat_api_mode.dart';
 
 part 'display_settings_view_model.g.dart';
 

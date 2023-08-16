@@ -1,8 +1,8 @@
-import 'package:cake_wallet/buy/buy_provider.dart';
-import 'package:cake_wallet/buy/get_buy_provider_icon.dart';
+import 'package:foss_wallet/buy/buy_provider.dart';
+import 'package:foss_wallet/buy/get_buy_provider_icon.dart';
 import 'package:cw_core/crypto_currency.dart';
-import 'package:cake_wallet/entities/fiat_currency.dart';
-import 'package:cake_wallet/palette.dart';
+import 'package:foss_wallet/entities/fiat_currency.dart';
+import 'package:foss_wallet/palette.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

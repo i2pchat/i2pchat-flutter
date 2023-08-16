@@ -1,6 +1,6 @@
-import 'package:cake_wallet/core/execution_state.dart';
-import 'package:cake_wallet/ionia/ionia_gift_card.dart';
-import 'package:cake_wallet/ionia/ionia_service.dart';
+import 'package:foss_wallet/core/execution_state.dart';
+import 'package:foss_wallet/ionia/ionia_gift_card.dart';
+import 'package:foss_wallet/ionia/ionia_service.dart';
 import 'package:mobx/mobx.dart';
 part 'ionia_custom_redeem_view_model.g.dart';
 

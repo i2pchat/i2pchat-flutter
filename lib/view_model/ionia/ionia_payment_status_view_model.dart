@@ -1,11 +1,11 @@
 import 'dart:async';
-import 'package:cake_wallet/anypay/any_pay_chain.dart';
+import 'package:foss_wallet/anypay/any_pay_chain.dart';
 import 'package:mobx/mobx.dart';
 import 'package:flutter/foundation.dart';
-import 'package:cake_wallet/ionia/ionia_service.dart';
-import 'package:cake_wallet/ionia/ionia_gift_card.dart';
-import 'package:cake_wallet/anypay/any_pay_payment_committed_info.dart';
-import 'package:cake_wallet/ionia/ionia_any_pay_payment_info.dart';
+import 'package:foss_wallet/ionia/ionia_service.dart';
+import 'package:foss_wallet/ionia/ionia_gift_card.dart';
+import 'package:foss_wallet/anypay/any_pay_payment_committed_info.dart';
+import 'package:foss_wallet/ionia/ionia_any_pay_payment_info.dart';
 
 part 'ionia_payment_status_view_model.g.dart';
 

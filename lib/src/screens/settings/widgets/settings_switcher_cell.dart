@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
-import 'package:cake_wallet/src/widgets/standard_list.dart';
-import 'package:cake_wallet/src/widgets/standard_switch.dart';
+import 'package:foss_wallet/src/widgets/standard_list.dart';
+import 'package:foss_wallet/src/widgets/standard_switch.dart';
 
 class SettingsSwitcherCell extends StandardListRow {
   SettingsSwitcherCell(

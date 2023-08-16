@@ -1,18 +1,18 @@
 import 'dart:convert';
-import 'package:cake_wallet/palette.dart';
-import 'package:cake_wallet/store/settings_store.dart';
-import 'package:cake_wallet/themes/theme_base.dart';
+import 'package:foss_wallet/palette.dart';
+import 'package:foss_wallet/store/settings_store.dart';
+import 'package:foss_wallet/themes/theme_base.dart';
 import 'package:crypto/crypto.dart';
-import 'package:cake_wallet/buy/buy_exception.dart';
+import 'package:foss_wallet/buy/buy_exception.dart';
 import 'package:http/http.dart';
-import 'package:cake_wallet/buy/buy_amount.dart';
-import 'package:cake_wallet/buy/buy_provider.dart';
-import 'package:cake_wallet/buy/buy_provider_description.dart';
-import 'package:cake_wallet/buy/order.dart';
+import 'package:foss_wallet/buy/buy_amount.dart';
+import 'package:foss_wallet/buy/buy_provider.dart';
+import 'package:foss_wallet/buy/buy_provider_description.dart';
+import 'package:foss_wallet/buy/order.dart';
 import 'package:cw_core/wallet_base.dart';
 import 'package:cw_core/wallet_type.dart';
-import 'package:cake_wallet/exchange/trade_state.dart';
-import 'package:cake_wallet/.secrets.g.dart' as secrets;
+import 'package:foss_wallet/exchange/trade_state.dart';
+import 'package:foss_wallet/.secrets.g.dart' as secrets;
 import 'package:cw_core/crypto_currency.dart';
 
 class MoonPaySellProvider {

@@ -1,5 +1,5 @@
-import 'package:cake_wallet/core/auth_service.dart';
-import 'package:cake_wallet/store/settings_store.dart';
+import 'package:foss_wallet/core/auth_service.dart';
+import 'package:foss_wallet/store/settings_store.dart';
 
 class SetupPinCodeViewModel {
   SetupPinCodeViewModel(this._authService, this._settingsStore)

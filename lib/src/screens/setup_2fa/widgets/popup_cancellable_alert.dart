@@ -1,9 +1,9 @@
-import 'package:cake_wallet/src/widgets/alert_close_button.dart';
-import 'package:cake_wallet/src/widgets/primary_button.dart';
+import 'package:foss_wallet/src/widgets/alert_close_button.dart';
+import 'package:foss_wallet/src/widgets/primary_button.dart';
 import 'package:flutter/material.dart';
-import 'package:cake_wallet/palette.dart';
+import 'package:foss_wallet/palette.dart';
 
-import 'package:cake_wallet/src/widgets/alert_background.dart';
+import 'package:foss_wallet/src/widgets/alert_background.dart';
 
 class PopUpCancellableAlertDialog extends StatelessWidget {
   final String contentText;

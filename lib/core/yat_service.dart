@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:cake_wallet/entities/yat_record.dart';
+import 'package:foss_wallet/entities/yat_record.dart';
 import 'package:http/http.dart';
 
 class YatService {

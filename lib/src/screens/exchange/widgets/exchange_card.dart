@@ -1,17 +1,17 @@
-import 'package:cake_wallet/entities/contact_base.dart';
-import 'package:cake_wallet/routes.dart';
-import 'package:cake_wallet/src/widgets/alert_with_two_actions.dart';
-import 'package:cake_wallet/utils/show_bar.dart';
-import 'package:cake_wallet/utils/show_pop_up.dart';
-import 'package:cake_wallet/utils/payment_request.dart';
+import 'package:foss_wallet/entities/contact_base.dart';
+import 'package:foss_wallet/routes.dart';
+import 'package:foss_wallet/src/widgets/alert_with_two_actions.dart';
+import 'package:foss_wallet/utils/show_bar.dart';
+import 'package:foss_wallet/utils/show_pop_up.dart';
+import 'package:foss_wallet/utils/payment_request.dart';
 import 'package:cw_core/currency.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
-import 'package:cake_wallet/generated/i18n.dart';
+import 'package:foss_wallet/generated/i18n.dart';
 import 'package:cw_core/crypto_currency.dart';
-import 'package:cake_wallet/src/widgets/address_text_field.dart';
-import 'package:cake_wallet/src/widgets/base_text_form_field.dart';
-import 'package:cake_wallet/src/screens/exchange/widgets/currency_picker.dart';
+import 'package:foss_wallet/src/widgets/address_text_field.dart';
+import 'package:foss_wallet/src/widgets/base_text_form_field.dart';
+import 'package:foss_wallet/src/screens/exchange/widgets/currency_picker.dart';
 
 class ExchangeCard extends StatefulWidget {
   ExchangeCard(

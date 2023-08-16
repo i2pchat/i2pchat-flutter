@@ -1,4 +1,4 @@
-import 'package:cake_wallet/exchange/trade_request.dart';
+import 'package:foss_wallet/exchange/trade_request.dart';
 import 'package:cw_core/crypto_currency.dart';
 
 class TrocadorRequest extends TradeRequest {

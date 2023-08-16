@@ -1,8 +1,8 @@
-# Building EasyWallet for Android
+# Building FossWallet for Android
 
 ## Requirements and Setup
 
-The following are the system requirements to build EasyWallet for your Android device.
+The following are the system requirements to build FossWallet for your Android device.
 
  * Ubuntu >= 16.04 
  * Android SDK 28
@@ -10,21 +10,21 @@ The following are the system requirements to build EasyWallet for your Android d
 
 ```
 : dart  --version
-Dart SDK version: 3.0.3 (stable) (Wed May 31 15:35:05 2023 +0000) on "linux_x64"
+Dart SDK version: 2.19.0 (stable) (Mon Jan 23 11:29:09 2023 -0800) on "linux_x64"
 : flutter --version
-Flutter 3.10.4 • channel stable • https://github.com/flutter/flutter.git
-Framework • revision 682aa387cf • 2023-06-05 18:04:56 -0500
-Engine • revision 2a3401c9bb
-Tools • Dart 3.0.3 • DevTools 2.23.1
+Flutter 3.7.0 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision b06b8b2710 (7 месяцев назад) • 2023-01-23 16:55:55 -0800
+Engine • revision b24591ed32
+Tools • Dart 2.19.0 • DevTools 2.20.1
 ```
 
-## Building EasyWallet on Android
+## Building FossWallet on Android
 
-These steps will help you configure and execute a build of EasyWallet from its source code.
+These steps will help you configure and execute a build of FossWallet from its source code.
 
 ### 1. Installing Package Dependencies
 
-EasyWallet cannot be built without the following packages installed on your build system.
+FossWallet cannot be built without the following packages installed on your build system.
 
   - curl
   - unzip
@@ -46,7 +46,7 @@ You may easily install them on your build system with the following command:
 
 ### 2. Installing Android Studio and Android toolchain
 
-You may download and install the latest version of Android Studio [here](https://developer.android.com/studio#downloads). After installing, start Android Studio, and go through the "Setup Wizard." This installs the latest Android SDK, Android SDK Command-line Tools, and Android SDK Build-Tools, which are required by EasyWallet. **Be sure you are installing SDK version 28 or later when stepping through the wizard**
+You may download and install the latest version of Android Studio [here](https://developer.android.com/studio#downloads). After installing, start Android Studio, and go through the "Setup Wizard." This installs the latest Android SDK, Android SDK Command-line Tools, and Android SDK Build-Tools, which are required by FossWallet. **Be sure you are installing SDK version 28 or later when stepping through the wizard**
 
 ### 3. Installing Flutter
 
@@ -54,7 +54,7 @@ You may download and install the latest version of Android Studio [here](https:/
  * Install flutter from https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.7.0-stable.tar.xz (includes 
    dart sdk at bin/cache/)
 
-Need to install flutter with version `3.10.4`. For this please check section [Install Flutter manually](https://docs.flutter.dev/get-started/install/linux#install-flutter-manually).
+Need to install flutter with version `3.7.0`. For this please check section [Install Flutter manually](https://docs.flutter.dev/get-started/install/linux#install-flutter-manually).
 
 ### 4. Verify Installations
 
@@ -76,9 +76,9 @@ Doctor summary (to see all details, run flutter doctor -v):
 
 You will be prompted to create two passwords. First you will be prompted for the "store password", followed by a "key password" towards the end of the creation process. **TAKE NOTE OF THESE PASSWORDS!** You will need them in later steps. 
 
-### 6. Acquiring the EasyWallet Source Code
+### 6. Acquiring the FossWallet Source Code
 
-Create the directory that will be use to store the EasyWallet source...
+Create the directory that will be use to store the FossWallet source...
 
 ```bash
 mkdir ~/vcs
@@ -87,37 +87,37 @@ cd ~/vcs
 
 ...and download the source code into that directory.
 
-`$ git clone https://github.com/easy-wallet/easy-wallet-v6.git --branch main`
+`$ git clone https://github.com/foss-wallet/foss-wallet-v6.git --branch main`
 
 Proceed into the source code before proceeding with the next steps:
 
-`$ cd easy-wallet-v5/scripts/android`
+`$ cd foss-wallet-v5/scripts/android`
 
 ### 7. Installing Android NDK
 
 `./install_ndk.sh`
 
-### 8. Execute Build & Setup Commands for EasyWallet
+### 8. Execute Build & Setup Commands for FossWallet
 
 We need to generate project settings like app name, app icon, package name, etc. For this need to setup environment variables and configure project files. 
 
-Please pick what app you want to build: cakewallet or monero.com or easywallet.
+Please pick what app you want to build: cakewallet or monero.com or fosswallet.
 
-`source ./app_env.sh easywallet`
+`source ./app_env.sh fosswallet`
 
 Then run configuration script for setup app name, app icon and etc:
 
-`./app_config.sh`  
+`./app_config.sh`
 
 Build the Monero libraries and their dependencies:
 
 `./build_all.sh`
 
-Now the dependencies need to be copied into the EasyWallet project with this command:
+Now the dependencies need to be copied into the FossWallet project with this command:
 
 `./copy_monero_deps.sh`
 
-It is now time to change back to the base directory of the EasyWallet source code:
+It is now time to change back to the base directory of the FossWallet source code:
 
 `cd ../..`
 
@@ -125,7 +125,7 @@ Install Flutter package dependencies with this command:
 
 `flutter pub get`
 
-Your EasyWallet binary will be built with cryptographic salts, which are used for secure encryption of your data.
+Your FossWallet binary will be built with cryptographic salts, which are used for secure encryption of your data.
 You may generate these secret salts with the following command:
 
 `dart run tool/generate_new_secrets.dart`
@@ -151,4 +151,4 @@ Lastly, we will generate mobx models for the project.
 `flutter build apk --release`
 
 Copyright (c) 2022 Cake Technologies LLC.
-Copyright (c) 2023 Easy Wallet team. All Rights Reserved.
+Copyright (c) 2023 FossWallet team. All Rights Reserved.

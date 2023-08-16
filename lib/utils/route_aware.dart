@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:cake_wallet/main.dart';
+import 'package:foss_wallet/main.dart';
 
 class RouteAwareWidget extends StatefulWidget {
   RouteAwareWidget(

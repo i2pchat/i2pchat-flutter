@@ -1,26 +1,26 @@
-import 'package:cake_wallet/anonpay/anonpay_donation_link_info.dart';
-import 'package:cake_wallet/entities/preferences_key.dart';
-import 'package:cake_wallet/entities/receive_page_option.dart';
-import 'package:cake_wallet/src/screens/base_page.dart';
-import 'package:cake_wallet/src/screens/dashboard/widgets/present_receive_option_picker.dart';
-import 'package:cake_wallet/src/widgets/alert_with_two_actions.dart';
-import 'package:cake_wallet/src/widgets/keyboard_done_button.dart';
-import 'package:cake_wallet/themes/theme_base.dart';
-import 'package:cake_wallet/utils/responsive_layout_util.dart';
-import 'package:cake_wallet/utils/share_util.dart';
-import 'package:cake_wallet/utils/show_pop_up.dart';
-import 'package:cake_wallet/view_model/dashboard/receive_option_view_model.dart';
-import 'package:cake_wallet/view_model/dashboard/dashboard_view_model.dart';
+import 'package:foss_wallet/anonpay/anonpay_donation_link_info.dart';
+import 'package:foss_wallet/entities/preferences_key.dart';
+import 'package:foss_wallet/entities/receive_page_option.dart';
+import 'package:foss_wallet/src/screens/base_page.dart';
+import 'package:foss_wallet/src/screens/dashboard/widgets/present_receive_option_picker.dart';
+import 'package:foss_wallet/src/widgets/alert_with_two_actions.dart';
+import 'package:foss_wallet/src/widgets/keyboard_done_button.dart';
+import 'package:foss_wallet/themes/theme_base.dart';
+import 'package:foss_wallet/utils/responsive_layout_util.dart';
+import 'package:foss_wallet/utils/share_util.dart';
+import 'package:foss_wallet/utils/show_pop_up.dart';
+import 'package:foss_wallet/view_model/dashboard/receive_option_view_model.dart';
+import 'package:foss_wallet/view_model/dashboard/dashboard_view_model.dart';
 import 'package:flutter/material.dart';
-import 'package:cake_wallet/view_model/wallet_address_list/wallet_address_list_view_model.dart';
-import 'package:cake_wallet/src/screens/receive/widgets/qr_widget.dart';
-import 'package:cake_wallet/routes.dart';
-import 'package:cake_wallet/generated/i18n.dart';
+import 'package:foss_wallet/view_model/wallet_address_list/wallet_address_list_view_model.dart';
+import 'package:foss_wallet/src/screens/receive/widgets/qr_widget.dart';
+import 'package:foss_wallet/routes.dart';
+import 'package:foss_wallet/generated/i18n.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:keyboard_actions/keyboard_actions.dart';
 import 'package:mobx/mobx.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:cake_wallet/di.dart';
+import 'package:foss_wallet/di.dart';
 
 class AddressPage extends BasePage {
   AddressPage({

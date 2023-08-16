@@ -1,8 +1,8 @@
-import 'package:cake_wallet/view_model/dashboard/action_list_item.dart';
-import 'package:cake_wallet/view_model/dashboard/anonpay_transaction_list_item.dart';
+import 'package:foss_wallet/view_model/dashboard/action_list_item.dart';
+import 'package:foss_wallet/view_model/dashboard/anonpay_transaction_list_item.dart';
 import 'package:mobx/mobx.dart';
 import 'package:cw_core/transaction_direction.dart';
-import 'package:cake_wallet/view_model/dashboard/transaction_list_item.dart';
+import 'package:foss_wallet/view_model/dashboard/transaction_list_item.dart';
 
 part 'transaction_filter_store.g.dart';
 

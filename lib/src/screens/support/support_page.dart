@@ -1,13 +1,13 @@
-import 'package:cake_wallet/src/screens/settings/widgets/settings_cell_with_arrow.dart';
-import 'package:cake_wallet/src/screens/settings/widgets/settings_link_provider_cell.dart';
-import 'package:cake_wallet/src/widgets/standard_list.dart';
-import 'package:cake_wallet/utils/responsive_layout_util.dart';
-import 'package:cake_wallet/view_model/settings/link_list_item.dart';
-import 'package:cake_wallet/view_model/settings/regular_list_item.dart';
-import 'package:cake_wallet/view_model/support_view_model.dart';
+import 'package:foss_wallet/src/screens/settings/widgets/settings_cell_with_arrow.dart';
+import 'package:foss_wallet/src/screens/settings/widgets/settings_link_provider_cell.dart';
+import 'package:foss_wallet/src/widgets/standard_list.dart';
+import 'package:foss_wallet/utils/responsive_layout_util.dart';
+import 'package:foss_wallet/view_model/settings/link_list_item.dart';
+import 'package:foss_wallet/view_model/settings/regular_list_item.dart';
+import 'package:foss_wallet/view_model/support_view_model.dart';
 import 'package:flutter/material.dart';
-import 'package:cake_wallet/src/screens/base_page.dart';
-import 'package:cake_wallet/generated/i18n.dart';
+import 'package:foss_wallet/src/screens/base_page.dart';
+import 'package:foss_wallet/generated/i18n.dart';
 
 class SupportPage extends BasePage {
   SupportPage(this.supportViewModel);

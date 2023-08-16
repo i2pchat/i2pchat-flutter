@@ -9,13 +9,13 @@ import 'package:path_provider/path_provider.dart';
 import 'package:cryptography/cryptography.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:archive/archive_io.dart';
-import 'package:cake_wallet/core/key_service.dart';
-import 'package:cake_wallet/entities/encrypt.dart';
-import 'package:cake_wallet/entities/preferences_key.dart';
-import 'package:cake_wallet/entities/secret_store_key.dart';
+import 'package:foss_wallet/core/key_service.dart';
+import 'package:foss_wallet/entities/encrypt.dart';
+import 'package:foss_wallet/entities/preferences_key.dart';
+import 'package:foss_wallet/entities/secret_store_key.dart';
 import 'package:cw_core/wallet_info.dart';
-import 'package:cake_wallet/.secrets.g.dart' as secrets;
-import 'package:cake_wallet/wallet_types.g.dart';
+import 'package:foss_wallet/.secrets.g.dart' as secrets;
+import 'package:foss_wallet/wallet_types.g.dart';
 import 'package:cake_backup/backup.dart' as cake_backup;
 
 class BackupService {

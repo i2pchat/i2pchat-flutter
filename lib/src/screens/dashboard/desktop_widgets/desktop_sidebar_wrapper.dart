@@ -1,18 +1,18 @@
-import 'package:cake_wallet/di.dart';
-import 'package:cake_wallet/routes.dart';
-import 'package:cake_wallet/src/screens/auth/auth_page.dart';
-import 'package:cake_wallet/src/screens/base_page.dart';
-import 'package:cake_wallet/src/screens/dashboard/desktop_widgets/desktop_dashboard_navbar.dart';
-import 'package:cake_wallet/src/screens/dashboard/desktop_widgets/desktop_sidebar/side_menu.dart';
-import 'package:cake_wallet/src/screens/dashboard/desktop_widgets/desktop_sidebar/side_menu_item.dart';
-import 'package:cake_wallet/src/screens/dashboard/desktop_widgets/desktop_wallet_selection_dropdown.dart';
-import 'package:cake_wallet/src/screens/dashboard/widgets/sync_indicator.dart';
-import 'package:cake_wallet/view_model/dashboard/dashboard_view_model.dart';
-import 'package:cake_wallet/view_model/dashboard/desktop_sidebar_view_model.dart';
+import 'package:foss_wallet/di.dart';
+import 'package:foss_wallet/routes.dart';
+import 'package:foss_wallet/src/screens/auth/auth_page.dart';
+import 'package:foss_wallet/src/screens/base_page.dart';
+import 'package:foss_wallet/src/screens/dashboard/desktop_widgets/desktop_dashboard_navbar.dart';
+import 'package:foss_wallet/src/screens/dashboard/desktop_widgets/desktop_sidebar/side_menu.dart';
+import 'package:foss_wallet/src/screens/dashboard/desktop_widgets/desktop_sidebar/side_menu_item.dart';
+import 'package:foss_wallet/src/screens/dashboard/desktop_widgets/desktop_wallet_selection_dropdown.dart';
+import 'package:foss_wallet/src/screens/dashboard/widgets/sync_indicator.dart';
+import 'package:foss_wallet/view_model/dashboard/dashboard_view_model.dart';
+import 'package:foss_wallet/view_model/dashboard/desktop_sidebar_view_model.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:cake_wallet/router.dart' as Router;
+import 'package:foss_wallet/router.dart' as Router;
 import 'package:mobx/mobx.dart';
 
 class DesktopSidebarWrapper extends BasePage {

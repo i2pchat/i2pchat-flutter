@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:mobx/mobx.dart';
 import 'package:hive/hive.dart';
-import 'package:cake_wallet/entities/template.dart';
+import 'package:foss_wallet/entities/template.dart';
 
 part 'send_template_store.g.dart';
 

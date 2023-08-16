@@ -1,7 +1,7 @@
-import 'package:cake_wallet/anonpay/anonpay_invoice_info.dart';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/src/screens/dashboard/widgets/sync_indicator_icon.dart';
-import 'package:cake_wallet/typography.dart';
+import 'package:foss_wallet/anonpay/anonpay_invoice_info.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/src/screens/dashboard/widgets/sync_indicator_icon.dart';
+import 'package:foss_wallet/typography.dart';
 import 'package:flutter/material.dart';
 
 class AnonInvoiceStatusSection extends StatelessWidget {

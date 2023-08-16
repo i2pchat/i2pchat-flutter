@@ -1,4 +1,4 @@
-package com.tranoo.easywallet.flutterui;
+package com.github.fosswallet;
 
 import androidx.annotation.NonNull;
 

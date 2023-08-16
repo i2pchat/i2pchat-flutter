@@ -1,13 +1,13 @@
 import 'dart:async';
 import 'dart:io';
-import 'package:cake_wallet/buy/buy_provider.dart';
-import 'package:cake_wallet/buy/moonpay/moonpay_buy_provider.dart';
-import 'package:cake_wallet/buy/wyre/wyre_buy_provider.dart';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/palette.dart';
-import 'package:cake_wallet/src/screens/base_page.dart';
-import 'package:cake_wallet/store/dashboard/orders_store.dart';
-import 'package:cake_wallet/view_model/buy/buy_view_model.dart';
+import 'package:foss_wallet/buy/buy_provider.dart';
+import 'package:foss_wallet/buy/moonpay/moonpay_buy_provider.dart';
+import 'package:foss_wallet/buy/wyre/wyre_buy_provider.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/palette.dart';
+import 'package:foss_wallet/src/screens/base_page.dart';
+import 'package:foss_wallet/store/dashboard/orders_store.dart';
+import 'package:foss_wallet/view_model/buy/buy_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 

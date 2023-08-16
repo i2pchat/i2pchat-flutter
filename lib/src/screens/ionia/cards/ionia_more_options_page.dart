@@ -1,8 +1,8 @@
-import 'package:cake_wallet/ionia/ionia_gift_card.dart';
-import 'package:cake_wallet/routes.dart';
-import 'package:cake_wallet/src/screens/base_page.dart';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/typography.dart';
+import 'package:foss_wallet/ionia/ionia_gift_card.dart';
+import 'package:foss_wallet/routes.dart';
+import 'package:foss_wallet/src/screens/base_page.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/typography.dart';
 import 'package:flutter/material.dart';
 
 class IoniaMoreOptionsPage extends BasePage {

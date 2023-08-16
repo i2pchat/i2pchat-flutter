@@ -1,5 +1,5 @@
-import 'package:cake_wallet/ionia/ionia_merchant.dart';
-import 'package:cake_wallet/ionia/ionia_tip.dart';
+import 'package:foss_wallet/ionia/ionia_merchant.dart';
+import 'package:foss_wallet/ionia/ionia_tip.dart';
 import 'package:mobx/mobx.dart';
 
 part 'ionia_custom_tip_view_model.g.dart';

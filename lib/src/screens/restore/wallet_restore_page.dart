@@ -1,6 +1,6 @@
-import 'package:cake_wallet/src/widgets/keyboard_done_button.dart';
-import 'package:cake_wallet/src/widgets/scollable_with_bottom_section.dart';
-import 'package:cake_wallet/utils/responsive_layout_util.dart';
+import 'package:foss_wallet/src/widgets/keyboard_done_button.dart';
+import 'package:foss_wallet/src/widgets/scollable_with_bottom_section.dart';
+import 'package:foss_wallet/utils/responsive_layout_util.dart';
 import 'package:cw_core/wallet_type.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -8,20 +8,20 @@ import 'package:keyboard_actions/keyboard_actions.dart';
 import 'package:mobx/mobx.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/core/execution_state.dart';
-import 'package:cake_wallet/src/screens/base_page.dart';
-import 'package:cake_wallet/src/widgets/alert_with_one_action.dart';
-import 'package:cake_wallet/view_model/wallet_restore_view_model.dart';
-import 'package:cake_wallet/src/screens/restore/wallet_restore_from_keys_form.dart';
-import 'package:cake_wallet/src/screens/restore/wallet_restore_from_seed_form.dart';
-import 'package:cake_wallet/src/widgets/primary_button.dart';
-import 'package:cake_wallet/utils/show_pop_up.dart';
-import 'package:cake_wallet/core/validator.dart';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/src/widgets/base_text_form_field.dart';
-import 'package:cake_wallet/core/seed_validator.dart';
-import 'package:cake_wallet/view_model/restore/restore_mode.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/core/execution_state.dart';
+import 'package:foss_wallet/src/screens/base_page.dart';
+import 'package:foss_wallet/src/widgets/alert_with_one_action.dart';
+import 'package:foss_wallet/view_model/wallet_restore_view_model.dart';
+import 'package:foss_wallet/src/screens/restore/wallet_restore_from_keys_form.dart';
+import 'package:foss_wallet/src/screens/restore/wallet_restore_from_seed_form.dart';
+import 'package:foss_wallet/src/widgets/primary_button.dart';
+import 'package:foss_wallet/utils/show_pop_up.dart';
+import 'package:foss_wallet/core/validator.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/src/widgets/base_text_form_field.dart';
+import 'package:foss_wallet/core/seed_validator.dart';
+import 'package:foss_wallet/view_model/restore/restore_mode.dart';
 
 class WalletRestorePage extends BasePage {
   WalletRestorePage(this.walletRestoreViewModel)

@@ -1,8 +1,8 @@
 // ignore_for_file: prefer_final_fields
 
-import 'package:cake_wallet/store/settings_store.dart';
-import 'package:cake_wallet/utils/totp_utils.dart' as Utils;
-import 'package:cake_wallet/view_model/auth_state.dart';
+import 'package:foss_wallet/store/settings_store.dart';
+import 'package:foss_wallet/utils/totp_utils.dart' as Utils;
+import 'package:foss_wallet/view_model/auth_state.dart';
 import 'package:flutter/widgets.dart';
 import 'package:mobx/mobx.dart';
 import 'package:shared_preferences/shared_preferences.dart';

@@ -1,5 +1,5 @@
 import 'package:cw_core/transaction_priority.dart';
-//import 'package:cake_wallet/generated/i18n.dart';
+//import 'package:foss_wallet/generated/i18n.dart';
 
 class BitcoinTransactionPriority extends TransactionPriority {
   const BitcoinTransactionPriority({required String title, required int raw})

@@ -1,16 +1,16 @@
-import 'package:cake_wallet/bitcoin/bitcoin.dart';
-import 'package:cake_wallet/view_model/restore/restore_mode.dart';
-import 'package:cake_wallet/view_model/restore/restore_wallet.dart';
+import 'package:foss_wallet/bitcoin/bitcoin.dart';
+import 'package:foss_wallet/view_model/restore/restore_mode.dart';
+import 'package:foss_wallet/view_model/restore/restore_wallet.dart';
 import 'package:hive/hive.dart';
 import 'package:mobx/mobx.dart';
-import 'package:cake_wallet/monero/monero.dart';
-import 'package:cake_wallet/store/app_store.dart';
+import 'package:foss_wallet/monero/monero.dart';
+import 'package:foss_wallet/store/app_store.dart';
 import 'package:cw_core/wallet_base.dart';
-import 'package:cake_wallet/core/generate_wallet_password.dart';
-import 'package:cake_wallet/core/wallet_creation_service.dart';
+import 'package:foss_wallet/core/generate_wallet_password.dart';
+import 'package:foss_wallet/core/wallet_creation_service.dart';
 import 'package:cw_core/wallet_credentials.dart';
 import 'package:cw_core/wallet_type.dart';
-import 'package:cake_wallet/view_model/wallet_creation_vm.dart';
+import 'package:foss_wallet/view_model/wallet_creation_vm.dart';
 import 'package:cw_core/wallet_info.dart';
 
 part 'restore_from_qr_vm.g.dart';

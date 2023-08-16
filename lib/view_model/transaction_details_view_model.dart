@@ -1,19 +1,19 @@
 import 'package:cw_core/wallet_base.dart';
 import 'package:cw_core/transaction_info.dart';
 import 'package:cw_core/wallet_type.dart';
-import 'package:cake_wallet/src/screens/transaction_details/standart_list_item.dart';
-import 'package:cake_wallet/src/screens/transaction_details/textfield_list_item.dart';
-import 'package:cake_wallet/src/screens/transaction_details/transaction_details_list_item.dart';
-import 'package:cake_wallet/src/screens/transaction_details/blockexplorer_list_item.dart';
+import 'package:foss_wallet/src/screens/transaction_details/standart_list_item.dart';
+import 'package:foss_wallet/src/screens/transaction_details/textfield_list_item.dart';
+import 'package:foss_wallet/src/screens/transaction_details/transaction_details_list_item.dart';
+import 'package:foss_wallet/src/screens/transaction_details/blockexplorer_list_item.dart';
 import 'package:cw_core/transaction_direction.dart';
-import 'package:cake_wallet/utils/date_formatter.dart';
-import 'package:cake_wallet/entities/transaction_description.dart';
+import 'package:foss_wallet/utils/date_formatter.dart';
+import 'package:foss_wallet/entities/transaction_description.dart';
 import 'package:hive/hive.dart';
 import 'package:mobx/mobx.dart';
-import 'package:cake_wallet/store/settings_store.dart';
-import 'package:cake_wallet/generated/i18n.dart';
+import 'package:foss_wallet/store/settings_store.dart';
+import 'package:foss_wallet/generated/i18n.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:cake_wallet/monero/monero.dart';
+import 'package:foss_wallet/monero/monero.dart';
 
 part 'transaction_details_view_model.g.dart';
 

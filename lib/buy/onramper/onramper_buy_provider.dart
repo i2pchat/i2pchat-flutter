@@ -1,6 +1,6 @@
-import 'package:cake_wallet/.secrets.g.dart' as secrets;
-import 'package:cake_wallet/store/settings_store.dart';
-import 'package:cake_wallet/themes/theme_base.dart';
+import 'package:foss_wallet/.secrets.g.dart' as secrets;
+import 'package:foss_wallet/store/settings_store.dart';
+import 'package:foss_wallet/themes/theme_base.dart';
 import 'package:cw_core/crypto_currency.dart';
 import 'package:cw_core/wallet_base.dart';
 

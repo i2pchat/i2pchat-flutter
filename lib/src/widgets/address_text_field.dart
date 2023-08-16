@@ -1,12 +1,12 @@
 
-import 'package:cake_wallet/utils/device_info.dart';
-import 'package:cake_wallet/utils/responsive_layout_util.dart';
+import 'package:foss_wallet/utils/device_info.dart';
+import 'package:foss_wallet/utils/responsive_layout_util.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
-import 'package:cake_wallet/routes.dart';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/entities/qr_scanner.dart';
-import 'package:cake_wallet/entities/contact_base.dart';
+import 'package:foss_wallet/routes.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/entities/qr_scanner.dart';
+import 'package:foss_wallet/entities/contact_base.dart';
 import 'package:cw_core/crypto_currency.dart';
 
 enum AddressTextFieldOption { paste, qrCode, addressBook }

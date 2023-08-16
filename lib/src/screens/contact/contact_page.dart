@@ -1,22 +1,22 @@
-import 'package:cake_wallet/core/address_validator.dart';
-import 'package:cake_wallet/palette.dart';
-import 'package:cake_wallet/utils/show_pop_up.dart';
+import 'package:foss_wallet/core/address_validator.dart';
+import 'package:foss_wallet/palette.dart';
+import 'package:foss_wallet/utils/show_pop_up.dart';
 import 'package:cw_core/currency.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:mobx/mobx.dart';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/core/contact_name_validator.dart';
-import 'package:cake_wallet/core/execution_state.dart';
-import 'package:cake_wallet/view_model/contact_list/contact_view_model.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/core/contact_name_validator.dart';
+import 'package:foss_wallet/core/execution_state.dart';
+import 'package:foss_wallet/view_model/contact_list/contact_view_model.dart';
 import 'package:cw_core/crypto_currency.dart';
-import 'package:cake_wallet/src/screens/base_page.dart';
-import 'package:cake_wallet/src/widgets/alert_with_one_action.dart';
-import 'package:cake_wallet/src/widgets/primary_button.dart';
-import 'package:cake_wallet/src/widgets/address_text_field.dart';
-import 'package:cake_wallet/src/widgets/scollable_with_bottom_section.dart';
-import 'package:cake_wallet/src/widgets/base_text_form_field.dart';
-import 'package:cake_wallet/src/screens/exchange/widgets/currency_picker.dart';
+import 'package:foss_wallet/src/screens/base_page.dart';
+import 'package:foss_wallet/src/widgets/alert_with_one_action.dart';
+import 'package:foss_wallet/src/widgets/primary_button.dart';
+import 'package:foss_wallet/src/widgets/address_text_field.dart';
+import 'package:foss_wallet/src/widgets/scollable_with_bottom_section.dart';
+import 'package:foss_wallet/src/widgets/base_text_form_field.dart';
+import 'package:foss_wallet/src/screens/exchange/widgets/currency_picker.dart';
 
 class ContactPage extends BasePage {
   ContactPage(this.contactViewModel)

@@ -1,10 +1,10 @@
 import 'dart:io';
 
-import 'package:cake_wallet/entities/preferences_key.dart';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/main.dart';
-import 'package:cake_wallet/src/widgets/alert_with_two_actions.dart';
-import 'package:cake_wallet/utils/show_pop_up.dart';
+import 'package:foss_wallet/entities/preferences_key.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/main.dart';
+import 'package:foss_wallet/src/widgets/alert_with_two_actions.dart';
+import 'package:foss_wallet/utils/show_pop_up.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';

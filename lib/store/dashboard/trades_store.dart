@@ -1,9 +1,9 @@
 import 'dart:async';
-import 'package:cake_wallet/exchange/trade.dart';
-import 'package:cake_wallet/view_model/dashboard/trade_list_item.dart';
+import 'package:foss_wallet/exchange/trade.dart';
+import 'package:foss_wallet/view_model/dashboard/trade_list_item.dart';
 import 'package:hive/hive.dart';
 import 'package:mobx/mobx.dart';
-import 'package:cake_wallet/store/settings_store.dart';
+import 'package:foss_wallet/store/settings_store.dart';
 
 part 'trades_store.g.dart';
 

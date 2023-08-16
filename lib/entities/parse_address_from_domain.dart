@@ -1,13 +1,13 @@
-import 'package:cake_wallet/core/address_validator.dart';
-import 'package:cake_wallet/core/yat_service.dart';
-import 'package:cake_wallet/entities/openalias_record.dart';
-import 'package:cake_wallet/entities/parsed_address.dart';
-import 'package:cake_wallet/entities/unstoppable_domain_address.dart';
-import 'package:cake_wallet/entities/emoji_string_extension.dart';
-import 'package:cake_wallet/twitter/twitter_api.dart';
+import 'package:foss_wallet/core/address_validator.dart';
+import 'package:foss_wallet/core/yat_service.dart';
+import 'package:foss_wallet/entities/openalias_record.dart';
+import 'package:foss_wallet/entities/parsed_address.dart';
+import 'package:foss_wallet/entities/unstoppable_domain_address.dart';
+import 'package:foss_wallet/entities/emoji_string_extension.dart';
+import 'package:foss_wallet/twitter/twitter_api.dart';
 import 'package:cw_core/crypto_currency.dart';
 import 'package:cw_core/wallet_type.dart';
-import 'package:cake_wallet/entities/fio_address_provider.dart';
+import 'package:foss_wallet/entities/fio_address_provider.dart';
 
 class AddressResolver {
   AddressResolver({required this.yatService, required this.walletType});

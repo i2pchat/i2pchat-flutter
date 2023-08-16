@@ -1,6 +1,6 @@
-import 'package:cake_wallet/core/generate_wallet_password.dart';
-import 'package:cake_wallet/core/key_service.dart';
-import 'package:cake_wallet/entities/preferences_key.dart';
+import 'package:foss_wallet/core/generate_wallet_password.dart';
+import 'package:foss_wallet/core/key_service.dart';
+import 'package:foss_wallet/entities/preferences_key.dart';
 import 'package:cw_core/wallet_base.dart';
 import 'package:cw_core/wallet_service.dart';
 import 'package:cw_core/wallet_type.dart';

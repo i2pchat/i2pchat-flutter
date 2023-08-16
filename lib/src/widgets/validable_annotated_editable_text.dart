@@ -1,4 +1,4 @@
-import 'package:cake_wallet/core/seed_validator.dart';
+import 'package:foss_wallet/core/seed_validator.dart';
 import 'package:cw_core/wallet_type.dart';
 import 'package:flutter/material.dart';
 

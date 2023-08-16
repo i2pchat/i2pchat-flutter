@@ -1,12 +1,12 @@
-import 'package:cake_wallet/core/node_address_validator.dart';
-import 'package:cake_wallet/core/node_port_validator.dart';
-import 'package:cake_wallet/src/widgets/base_text_form_field.dart';
-import 'package:cake_wallet/src/widgets/standard_checkbox.dart';
-import 'package:cake_wallet/view_model/node_list/node_create_or_edit_view_model.dart';
+import 'package:foss_wallet/core/node_address_validator.dart';
+import 'package:foss_wallet/core/node_port_validator.dart';
+import 'package:foss_wallet/src/widgets/base_text_form_field.dart';
+import 'package:foss_wallet/src/widgets/standard_checkbox.dart';
+import 'package:foss_wallet/view_model/node_list/node_create_or_edit_view_model.dart';
 import 'package:cw_core/node.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:cake_wallet/generated/i18n.dart';
+import 'package:foss_wallet/generated/i18n.dart';
 import 'package:mobx/mobx.dart';
 
 class NodeForm extends StatelessWidget {

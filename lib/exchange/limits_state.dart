@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:cake_wallet/exchange/limits.dart';
+import 'package:foss_wallet/exchange/limits.dart';
 
 abstract class LimitsState {}
 

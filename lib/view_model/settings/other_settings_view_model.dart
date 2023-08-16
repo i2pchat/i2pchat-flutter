@@ -1,6 +1,6 @@
-import 'package:cake_wallet/bitcoin/bitcoin.dart';
-import 'package:cake_wallet/entities/priority_for_wallet_type.dart';
-import 'package:cake_wallet/store/settings_store.dart';
+import 'package:foss_wallet/bitcoin/bitcoin.dart';
+import 'package:foss_wallet/entities/priority_for_wallet_type.dart';
+import 'package:foss_wallet/store/settings_store.dart';
 import 'package:cw_core/balance.dart';
 import 'package:cw_core/transaction_history.dart';
 import 'package:cw_core/transaction_info.dart';

@@ -1,12 +1,12 @@
-import 'package:cake_wallet/palette.dart';
-import 'package:cake_wallet/src/screens/ionia/widgets/rounded_checkbox.dart';
-import 'package:cake_wallet/src/widgets/alert_background.dart';
-import 'package:cake_wallet/typography.dart';
-import 'package:cake_wallet/utils/show_pop_up.dart';
-import 'package:cake_wallet/view_model/dashboard/receive_option_view_model.dart';
+import 'package:foss_wallet/palette.dart';
+import 'package:foss_wallet/src/screens/ionia/widgets/rounded_checkbox.dart';
+import 'package:foss_wallet/src/widgets/alert_background.dart';
+import 'package:foss_wallet/typography.dart';
+import 'package:foss_wallet/utils/show_pop_up.dart';
+import 'package:foss_wallet/view_model/dashboard/receive_option_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:cake_wallet/generated/i18n.dart';
+import 'package:foss_wallet/generated/i18n.dart';
 
 class PresentReceiveOptionPicker extends StatelessWidget {
   PresentReceiveOptionPicker(

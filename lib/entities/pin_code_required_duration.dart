@@ -1,4 +1,4 @@
-import 'package:cake_wallet/generated/i18n.dart';
+import 'package:foss_wallet/generated/i18n.dart';
 
 enum PinCodeRequiredDuration { 
   always(0), 

@@ -1,4 +1,4 @@
-import 'package:cake_wallet/ionia/ionia_virtual_card.dart';
+import 'package:foss_wallet/ionia/ionia_virtual_card.dart';
 import 'package:flutter/material.dart';
 
 abstract class IoniaCreateAccountState {}

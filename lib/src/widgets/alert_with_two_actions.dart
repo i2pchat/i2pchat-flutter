@@ -1,5 +1,5 @@
 import 'dart:ui';
-import 'package:cake_wallet/src/widgets/base_alert_dialog.dart';
+import 'package:foss_wallet/src/widgets/base_alert_dialog.dart';
 import 'package:flutter/cupertino.dart';
 
 class AlertWithTwoActions extends BaseAlertDialog {

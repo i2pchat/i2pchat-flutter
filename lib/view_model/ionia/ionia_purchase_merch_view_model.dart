@@ -1,13 +1,13 @@
 import 'package:flutter/foundation.dart';
 import 'package:mobx/mobx.dart';
-import 'package:cake_wallet/anypay/any_pay_payment.dart';
-import 'package:cake_wallet/anypay/any_pay_payment_committed_info.dart';
-import 'package:cake_wallet/core/execution_state.dart';
-import 'package:cake_wallet/ionia/ionia_anypay.dart';
-import 'package:cake_wallet/ionia/ionia_merchant.dart';
-import 'package:cake_wallet/ionia/ionia_tip.dart';
-import 'package:cake_wallet/ionia/ionia_any_pay_payment_info.dart';
-import 'package:cake_wallet/view_model/send/send_view_model.dart';
+import 'package:foss_wallet/anypay/any_pay_payment.dart';
+import 'package:foss_wallet/anypay/any_pay_payment_committed_info.dart';
+import 'package:foss_wallet/core/execution_state.dart';
+import 'package:foss_wallet/ionia/ionia_anypay.dart';
+import 'package:foss_wallet/ionia/ionia_merchant.dart';
+import 'package:foss_wallet/ionia/ionia_tip.dart';
+import 'package:foss_wallet/ionia/ionia_any_pay_payment_info.dart';
+import 'package:foss_wallet/view_model/send/send_view_model.dart';
 
 part 'ionia_purchase_merch_view_model.g.dart';
 

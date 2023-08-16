@@ -1,13 +1,13 @@
-import 'package:cake_wallet/store/app_store.dart';
+import 'package:foss_wallet/store/app_store.dart';
 import 'package:cw_core/transaction_direction.dart';
 import 'package:cw_core/transaction_info.dart';
 import 'package:cw_core/wallet_type.dart';
 import 'package:mobx/mobx.dart';
-import 'package:cake_wallet/generated/i18n.dart';
+import 'package:foss_wallet/generated/i18n.dart';
 import 'package:cw_core/wallet_base.dart';
-import 'package:cake_wallet/src/screens/transaction_details/standart_list_item.dart';
-import 'package:cake_wallet/monero/monero.dart';
-import 'package:cake_wallet/haven/haven.dart';
+import 'package:foss_wallet/src/screens/transaction_details/standart_list_item.dart';
+import 'package:foss_wallet/monero/monero.dart';
+import 'package:foss_wallet/haven/haven.dart';
 import 'package:cw_monero/api/wallet.dart' as monero_wallet;
 
 part 'wallet_keys_view_model.g.dart';

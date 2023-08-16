@@ -1,14 +1,14 @@
 import 'package:another_flushbar/flushbar.dart';
-import 'package:cake_wallet/utils/show_bar.dart';
+import 'package:foss_wallet/utils/show_bar.dart';
 import 'package:mobx/mobx.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/view_model/auth_state.dart';
-import 'package:cake_wallet/view_model/auth_view_model.dart';
-import 'package:cake_wallet/src/screens/pin_code/pin_code.dart';
-import 'package:cake_wallet/src/screens/pin_code/pin_code_widget.dart';
-import 'package:cake_wallet/core/execution_state.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/view_model/auth_state.dart';
+import 'package:foss_wallet/view_model/auth_view_model.dart';
+import 'package:foss_wallet/src/screens/pin_code/pin_code.dart';
+import 'package:foss_wallet/src/screens/pin_code/pin_code_widget.dart';
+import 'package:foss_wallet/core/execution_state.dart';
 
 typedef OnAuthenticationFinished = void Function(bool, AuthPageState);
 

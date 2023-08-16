@@ -1,6 +1,6 @@
-import 'package:cake_wallet/palette.dart';
-import 'package:cake_wallet/src/widgets/standard_list_card.dart';
-import 'package:cake_wallet/src/widgets/standard_list_status_row.dart';
+import 'package:foss_wallet/palette.dart';
+import 'package:foss_wallet/src/widgets/standard_list_card.dart';
+import 'package:foss_wallet/src/widgets/standard_list_status_row.dart';
 import 'package:flutter/material.dart';
 
 class StandardListRow extends StatelessWidget {

@@ -1,4 +1,4 @@
-package com.tranoo.easywallet.flutterui;
+package com.github.fosswallet;
 
 import io.flutter.app.FlutterApplication;
 import io.flutter.plugin.common.PluginRegistry;

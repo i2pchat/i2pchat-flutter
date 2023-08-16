@@ -1,5 +1,5 @@
 import 'package:cw_core/wallet_type.dart';
-import 'package:cake_wallet/wallet_types.g.dart';
+import 'package:foss_wallet/wallet_types.g.dart';
 
 bool get isMoneroOnly {
     return availableWalletTypes.length == 1
@@ -25,5 +25,5 @@ String get approximatedAppName {
         return 'Haven';
     }
      
-    return 'Easy Wallet';
+    return 'FossWallet';
 }

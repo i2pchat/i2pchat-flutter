@@ -1,5 +1,5 @@
-import 'package:cake_wallet/generated/i18n.dart';
-import 'package:cake_wallet/utils/responsive_layout_util.dart';
+import 'package:foss_wallet/generated/i18n.dart';
+import 'package:foss_wallet/utils/responsive_layout_util.dart';
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 

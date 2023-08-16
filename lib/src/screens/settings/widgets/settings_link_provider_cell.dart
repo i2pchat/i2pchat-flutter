@@ -1,6 +1,6 @@
-import 'package:cake_wallet/palette.dart';
+import 'package:foss_wallet/palette.dart';
 import 'package:flutter/material.dart';
-import 'package:cake_wallet/src/widgets/standard_list.dart';
+import 'package:foss_wallet/src/widgets/standard_list.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class SettingsLinkProviderCell extends StandardListRow {

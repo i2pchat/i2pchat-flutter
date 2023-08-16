@@ -1,21 +1,21 @@
-import 'package:cake_wallet/exchange/exchange_provider.dart';
-import 'package:cake_wallet/src/screens/base_page.dart';
-import 'package:cake_wallet/src/widgets/keyboard_done_button.dart';
+import 'package:foss_wallet/exchange/exchange_provider.dart';
+import 'package:foss_wallet/src/screens/base_page.dart';
+import 'package:foss_wallet/src/widgets/keyboard_done_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:keyboard_actions/keyboard_actions.dart';
 import 'package:mobx/mobx.dart';
-import 'package:cake_wallet/generated/i18n.dart';
+import 'package:foss_wallet/generated/i18n.dart';
 import 'package:cw_core/crypto_currency.dart';
-import 'package:cake_wallet/exchange/xmrto/xmrto_exchange_provider.dart';
-// import 'package:cake_wallet/exchange/exchange_trade_state.dart';
-// import 'package:cake_wallet/exchange/limits_state.dart';
-import 'package:cake_wallet/src/screens/exchange/widgets/exchange_card.dart';
-import 'package:cake_wallet/src/widgets/primary_button.dart';
-import 'package:cake_wallet/src/widgets/scollable_with_bottom_section.dart';
-import 'package:cake_wallet/view_model/exchange/exchange_view_model.dart';
-import 'package:cake_wallet/core/amount_validator.dart';
-import 'package:cake_wallet/src/screens/exchange/widgets/present_provider_picker.dart';
+import 'package:foss_wallet/exchange/xmrto/xmrto_exchange_provider.dart';
+// import 'package:foss_wallet/exchange/exchange_trade_state.dart';
+// import 'package:foss_wallet/exchange/limits_state.dart';
+import 'package:foss_wallet/src/screens/exchange/widgets/exchange_card.dart';
+import 'package:foss_wallet/src/widgets/primary_button.dart';
+import 'package:foss_wallet/src/widgets/scollable_with_bottom_section.dart';
+import 'package:foss_wallet/view_model/exchange/exchange_view_model.dart';
+import 'package:foss_wallet/core/amount_validator.dart';
+import 'package:foss_wallet/src/screens/exchange/widgets/present_provider_picker.dart';
 
 class ExchangeTemplatePage extends BasePage {
   ExchangeTemplatePage(this.exchangeViewModel);

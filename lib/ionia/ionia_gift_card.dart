@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:cake_wallet/ionia/ionia_gift_card_instruction.dart';
+import 'package:foss_wallet/ionia/ionia_gift_card_instruction.dart';
 import 'package:flutter/foundation.dart';
 
 class IoniaGiftCard {

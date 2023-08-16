@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:cake_wallet/palette.dart';
+import 'package:foss_wallet/palette.dart';
 
 class PickerItemWidget extends StatelessWidget {
   const PickerItemWidget({

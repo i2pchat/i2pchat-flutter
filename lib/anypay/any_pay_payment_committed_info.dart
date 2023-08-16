@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:cake_wallet/anypay/any_pay_trasnaction.dart';
+import 'package:foss_wallet/anypay/any_pay_trasnaction.dart';
 
 class AnyPayPaymentCommittedInfo {
 	const AnyPayPaymentCommittedInfo({
