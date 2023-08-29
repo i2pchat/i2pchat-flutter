@@ -4,7 +4,7 @@ TODO The content below should be reworked.
 
 ```
 <Hypnosis> monetizable
-<Hypnosis> later to be reshaped as heterogeneous networking & UI project
+<Hypnosis> later to be reshaped as heterogeneous networking & UI project https://github.com/openskynet/openskynet-flutter
 ```
 
 # FossWallet for Android
