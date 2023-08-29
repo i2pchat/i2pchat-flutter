@@ -1,4 +1,4 @@
-# i2pchat-flutеer
+# i2pchat-flutter
 
 TODO The content below should be reworked.
 
