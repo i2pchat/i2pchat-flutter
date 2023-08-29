@@ -1,6 +1,11 @@
-# FossWallet
+# i2pchat-fluter
 
 TODO The content below should be reworked.
+
+```
+<Hypnosis> monetizable
+<Hypnosis> later to be reshaped as heterogeneous networking & UI project
+```
 
 # FossWallet for Android
 
